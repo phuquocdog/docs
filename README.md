@@ -27,7 +27,7 @@ The smallest unit of account in a Substrate network (Polkadot, Kusama, etc.) is 
 
 Substrate and IPFS/S3 are the only required parts of the Phu Quoc Doge protocol.
 
-![](../../.gitbook/assets/Architecture-PhuQuocDoge.png)
+![](./.gitbook/assets/Architecture-PhuQuocDoge.png)
 
 Our project includes:
 
