@@ -32,7 +32,7 @@ Substrate and IPFS/S3 are the only required parts of the Phu Quoc Doge protocol.
 Our project includes:
 
 - Back-end developed in PHP, running on MySQL, Elastic and using Web3J.
-- UI developed in React.js and React native
+- UI and Mobile app developed in React.js and React native.
 - Blockhain part : Binance Smart Chain (public and private), Polkadot Technology, either ready-to-use framework or Parathread (and Relay Chain)
 
 
