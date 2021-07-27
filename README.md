@@ -6,6 +6,8 @@ This site will be updated from as Phu Quoc Doge evolves. We welcome everyone joi
 
 ## What is Phu Quoc Doge
 
+Decentralized dogs social network, it is the best social network for pets, where you can share photos and videos of your pet's life, rescue puppies, adopt a pet, find pet friendly places and take advantage of our useful pet services. Join the moon mission. 🐶
+
 Phu Quoc Doge is a Substrate-based Polkadot parachain. Phu Quoc Doge is committed to providing easy-to-use blockchain infrastructure and creating a one-stop comprehensive infrastructure platform, which aims to reduce the threshold and cost for developers, while bringing them great returns.
 
 PhuquocDoge (PQD) is a real token used to run ads on pet social networking platforms as well as exchanges related to shopping for pet products and services.
