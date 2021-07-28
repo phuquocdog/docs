@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Welcome to PhuQuoc Doge](README.md)
+* [Welcome to Phu Quoc Dog](README.md)
 * [Follow Us](follow-us.md)
 * [FAQ](faq.md)
 
@@ -20,7 +20,7 @@
   * [PhuQuoc Doge Explorer](quick-start/testnet/clover-explorer.md)
   * [Run a PhuQuoc Doge node](quick-start/testnet/run-a-clover-node.md)
   * [Connect to TestNet network](quick-start/testnet/connect-to-test-network.md)
-* [PhuQuoc Doge Network List](quick-start/clover-network-list.md)
+* [PhuQuoc Doge Network List](quick-start/phuquoc-doge-network-list.md)
 
 ## PhuQuoc Doge DAPP Development <a id="dapp-development-1"></a>
 
@@ -36,29 +36,29 @@
 
 ## PhuQuoc Doge Eco Incentive Program
 
-* [Introduction](clover-eco-incentive-program/introduction.md)
-* [PhuQuoc Doge Developer Incentive Program](clover-eco-incentive-program/clover-dapp-developer-incentive-structure.md)
-* [Virtual Ethereum address binding](clover-eco-incentive-program/clover-user-incentive-program.md)
-* [PhuQuoc Doge User Incentive Program](clover-eco-incentive-program/clover-user-incentive-program-1.md)
+* [Introduction](phuquoc-doge-eco-incentive-program/introduction.md)
+* [PhuQuoc Doge Developer Incentive Program](phuquoc-doge-eco-incentive-program/phuquoc-doge-developer-incentive-program.md)
+* [Virtual Ethereum address binding](phuquoc-doge-eco-incentive-program/virtual-ethereum-address-binding.md)
+* [PhuQuoc Doge User Incentive Program](phuquoc-doge-eco-incentive-program/phuquoc-doge-user-incentive-program.md)
 
 ## PhuQuoc Doge Wallets & Dapps <a id="wallet-and-dapp"></a>
 
-* [PhuQuoc Doge Extension Wallet](wallet-and-dapp/clover-extension-wallet/README.md)
-  * [Getting Started](wallet-and-dapp/clover-extension-wallet/installation.md)
-  * [View Seed Phrase](wallet-and-dapp/clover-extension-wallet/view-seed-phrase.md)
-  * [Restore/Import Account](wallet-and-dapp/clover-extension-wallet/restore-import-account.md)
-  * [Switch Networks](wallet-and-dapp/clover-extension-wallet/switch-networks.md)
-  * [Add Tokens](wallet-and-dapp/clover-extension-wallet/add-tokens.md)
-  * [Send Tokens](wallet-and-dapp/clover-extension-wallet/send-tokens.md)
-  * [Cross-Chain Transfer](wallet-and-dapp/clover-extension-wallet/cross-chain-transfer.md)
-  * [Avoid Metamask Conflict](wallet-and-dapp/clover-extension-wallet/avoid-metamask-conflict.md)
-  * [DApp Integration](wallet-and-dapp/clover-extension-wallet/dapp-integration.md)
-  * [DApp Interaction Protocol](wallet-and-dapp/clover-extension-wallet/dapp-protocol.md)
-* [PhuQuoc Doge Mobile Wallet](wallet-and-dapp/clover-mobile-wallet.md)
-* [PhuQuoc Doge Web Wallet](wallet-and-dapp/clover-web-wallet.md)
+* [PhuQuoc Doge Extension Wallet](wallet-and-dapp/phuquoc-doge-extension-wallet/README.md)
+  * [Getting Started](wallet-and-dapp/phuquoc-doge-extension-wallet/getting-started.md)
+  * [View Seed Phrase](wallet-and-dapp/phuquoc-doge-extension-wallet/view-seed-phrase.md)
+  * [Restore/Import Account](wallet-and-dapp/phuquoc-doge-extension-wallet/restore-import-account.md)
+  * [Switch Networks](wallet-and-dapp/phuquoc-doge-extension-wallet/switch-networks.md)
+  * [Add Tokens](wallet-and-dapp/phuquoc-doge-extension-wallet/add-tokens.md)
+  * [Send Tokens](wallet-and-dapp/phuquoc-doge-extension-wallet/send-tokens.md)
+  * [Cross-Chain Transfer](wallet-and-dapp/phuquoc-doge-extension-wallet/cross-chain-transfer.md)
+  * [Avoid Metamask Conflict](wallet-and-dapp/phuquoc-doge-extension-wallet/avoid-metamask-conflict.md)
+  * [DApp Integration](wallet-and-dapp/phuquoc-doge-extension-wallet/dapp-integration.md)
+  * [DApp Interaction Protocol](wallet-and-dapp/phuquoc-doge-extension-wallet/dapp-interaction-protocol.md)
+* [PhuQuoc Doge Mobile Wallet](wallet-and-dapp/phuquoc-doge-mobile-wallet.md)
+* [PhuQuoc Doge Web Wallet](wallet-and-dapp/phuquoc-doge-web-wallet.md)
 * [DAPP store](wallet-and-dapp/dapp-store.md)
-* [PhuQuoc Doge Assets Explorer](wallet-and-dapp/assets-stats-and-management.md)
-* [PhuQuoc Doge Cross-Chain Explorer](wallet-and-dapp/clover-cross-chain-explorer.md)
+* [PhuQuoc Doge Assets Explorer](wallet-and-dapp/phuquoc-doge-assets-explorer.md)
+* [PhuQuoc Doge Cross-Chain Explorer](wallet-and-dapp/phuquoc-doge-cross-chain-explorer.md)
 
 ## Maintain
 
@@ -79,20 +79,20 @@
   * [eth\_blockNumber](technical-documentation/web3-compatibility/eth_blocknumber.md)
   * [eth\_getBalance](technical-documentation/web3-compatibility/eth_getbalance.md)
   * [eth\_getStorageAt](technical-documentation/web3-compatibility/eth_getstorageat.md)
-  * [eth\_getBlock](technical-documentation/web3-compatibility/eth_getblockbynumber.md)
+  * [eth\_getBlock](technical-documentation/web3-compatibility/eth_getblock.md)
   * [eth\_getTransactionCount](technical-documentation/web3-compatibility/eth_gettransactioncount.md)
-  * [eth\_getBlockTransactionCount](technical-documentation/web3-compatibility/eth_getblocktransactioncountbynumber.md)
-  * [eth\_getBlockUncleCount](technical-documentation/web3-compatibility/eth_getunclecountbyblockhash.md)
+  * [eth\_getBlockTransactionCount](technical-documentation/web3-compatibility/eth_getblocktransactioncount.md)
+  * [eth\_getBlockUncleCount](technical-documentation/web3-compatibility/eth_getblockunclecount.md)
   * [eth\_getCode](technical-documentation/web3-compatibility/eth_getcode.md)
   * [eth\_sendTransaction](technical-documentation/web3-compatibility/eth_sendtransaction.md)
-  * [eth\_sendSignedTransaction](technical-documentation/web3-compatibility/eth_sendrawtransaction.md)
+  * [eth\_sendSignedTransaction](technical-documentation/web3-compatibility/eth_sendsignedtransaction.md)
   * [eth\_call](technical-documentation/web3-compatibility/eth_call.md)
   * [eth\_estimateGas](technical-documentation/web3-compatibility/eth_estimategas.md)
-  * [eth\_getTransaction](technical-documentation/web3-compatibility/eth_gettransactionbyhash.md)
+  * [eth\_getTransaction](technical-documentation/web3-compatibility/eth_gettransaction.md)
   * [eth\_getTransactionByBlockHashAndIndex](technical-documentation/web3-compatibility/eth_gettransactionbyblockhashandindex.md)
   * [eth\_getTransactionByBlockNumberAndIndex](technical-documentation/web3-compatibility/eth_gettransactionbyblocknumberandindex.md)
   * [eth\_getTransactionReceipt](technical-documentation/web3-compatibility/eth_gettransactionreceipt.md)
-  * [eth\_getUncle](technical-documentation/web3-compatibility/eth_getunclebyblocknumberandindex.md)
+  * [eth\_getUncle](technical-documentation/web3-compatibility/eth_getuncle.md)
   * [eth\_getLogs](technical-documentation/web3-compatibility/eth_getlogs.md)
   * [eth\_getWork](technical-documentation/web3-compatibility/eth_getwork.md)
   * [eth\_submitWork](technical-documentation/web3-compatibility/eth_submitwork.md)
@@ -104,9 +104,9 @@
   * [net\_listening](technical-documentation/web3-compatibility/net_listening.md)
   * [web3\_clientVersion](technical-documentation/web3-compatibility/web3_clientversion.md)
   * [web3\_sha3](technical-documentation/web3-compatibility/web3_sha3.md)
-* [PhuQuoc Doge Test Cases](technical-documentation/clover-test-cases.md)
-* [PhuQuoc Doge EVM](technical-documentation/clover-evm.md)
-* [PhuQuoc Doge Accounts Binding](technical-documentation/clover-evm-bind.md)
+* [PhuQuoc Doge Test Cases](technical-documentation/phuquoc-doge-test-cases.md)
+* [PhuQuoc Doge EVM](technical-documentation/phuquoc-doge-evm.md)
+* [PhuQuoc Doge Accounts Binding](technical-documentation/phuquoc-doge-accounts-binding.md)
 * [Query Balance](technical-documentation/query-banalnce.md)
 * [Transaction Finality](technical-documentation/transaction-finality.md)
 

@@ -1,6 +1,6 @@
 # Running a RPC node
 
-PhuQuoc Doge Foundation provides the RPC services for the public. Sometimes it's necessary to run a self hosted PhuQuoc Doge RPC service if the public services can't satisfy your needs. 
+PhuQuoc Doge Foundation provides the RPC services for the public. Sometimes it's necessary to run a self hosted PhuQuoc Doge RPC service if the public services can't satisfy your needs.
 
 With a self hosted PhuQuoc Doge RPC service you could gain below benefits:
 
@@ -10,7 +10,7 @@ With a self hosted PhuQuoc Doge RPC service you could gain below benefits:
 
 PhuQuoc Doge is a fully decentralized network, any people can setup a PhuQuoc Doge node by following this tutorial!
 
-##  🍀 Types Of Phu Quoc Dog RPC Nodes
+## 🍀 Types Of Phu Quoc Dog RPC Nodes
 
 Generally speaking, there are two kind of RPC nodes:
 
@@ -28,7 +28,7 @@ An archive nodes consumes much more disk spaces it stores more data than a full 
 
 ## Prepare Environment
 
-We'll use [docker](https://docs.docker.com/engine/) and [docker-compose](https://docs.docker.com/compose/) to run the validator in this guide. You need to install docker and docker-compose firstly.  Please follow the installation guide in the docs.
+We'll use [docker](https://docs.docker.com/engine/) and [docker-compose](https://docs.docker.com/compose/) to run the validator in this guide. You need to install docker and docker-compose firstly. Please follow the installation guide in the docs.
 
 * [Docker Install Document](https://docs.docker.com/engine/install/)
 * [Docker-Compose Install Document](https://docs.docker.com/compose/install/)
@@ -49,8 +49,6 @@ Below ports need to be exposed:
 **You may not expose 9933/9944 ports directly.** Instead a reverse proxy server could be setup in front and proxy requests to the rpc backend.
 {% endhint %}
 
-
-
 ### 📁 Create Directories
 
 Create the config and data directories using below command:
@@ -60,7 +58,7 @@ sudo mkdir -p /opt/data/
 sudo mkdir -p /opt/compose/
 # secure the data access
 sudo chmod 0700 /opt/data
-sudo chmod 0700 /opt/compose 
+sudo chmod 0700 /opt/compose
 ```
 
 ## ⚙ Setup PhuQuoc Doge Rpc Node
@@ -74,7 +72,7 @@ TODO
 {% hint style="info" %}
 You can edit the `docker-compose.yaml` and include your customizations by updating below arguments:
 
-* image: the docker image used to launch the node, for PhuQuoc Doge Testnet, use `cloverio/clover-iris:0.1.15.` For a full list of clover networks please check out the [PhuQuoc Doge Network List](../quick-start/clover-network-list.md) page.
+* image: the docker image used to launch the node, for PhuQuoc Doge Testnet, use `cloverio/clover-iris:0.1.15.` For a full list of clover networks please check out the [PhuQuoc Doge Network List](https://github.com/phuquocdog/docs/tree/1500cf0c0a387d667a5363e1071b2077d97114ba/quick-start/clover-network-list.md) page.
 * --_name_:  The node name of your validator, the name could be found in the telemetry node list
 * _--pruning_: we're using the `archive` mode for the pruning argument, which means it will keep all the historical block data. You can provide numeric parameters for it, to let it just keep the provided number of blocks data.
 * _--ws-extenral/--rpc-external:_ it enable the outer access for the RPC service.

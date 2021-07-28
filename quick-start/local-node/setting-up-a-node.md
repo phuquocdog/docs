@@ -78,7 +78,7 @@ Then you will want to run the node in dev mode using the following command:
 
 You should see an output that looks like the following, showing that blocks are being produced:
 
-```
+```text
 tranduythien at ThienTran in ~/github/phuquocdoge-node on master                                                         [4/23]
 $ ./target/release/phuquocdoge-node --dev --rpc-cors=all  --unsafe-rpc-external  --unsafe-ws-external --validator --tmp -lrunti
 me=debug                                                                                                                       
@@ -101,9 +101,8 @@ me=debug
 2021-07-19 15:15:24.005  INFO tokio-runtime-worker sc_basic_authorship::basic_authorship: 🙌 Starting consensus session on top of parent 0x1452c2cc1fa70f53212f770ee5842575ef3116af7f4ba2440dac731465f38a14    
 2021-07-19 15:15:24.014  INFO tokio-runtime-worker sc_basic_authorship::basic_authorship: 🎁 Prepared block for proposing at 1 [hash: 0x3436bf18e40eaa335f5180296d315231e926a9a4bb4f75c8dd6d7e82c6025d84; parent_hash: 0x1452…8a14; extrinsics (1): [0x5497…359e]]    
 2021-07-19 15:15:24.018  INFO tokio-runtime-worker aura: 🔖 Pre-sealed block for proposal at 1. Hash now 0x1dfc5baa90658ac5c2e4b764709ea38fac0bdacc51a1012e27cf8635b124fac7, previously 0x3436bf18e40eaa335f5180296d315231e926a9a4bb4f75c8dd6d7e82c6025d84.
-
-
 ```
+
 {% hint style="info" %}
 The local standalone PhuQuoc Doge node provides two RPC endpoints:
 
@@ -114,7 +113,7 @@ The local standalone PhuQuoc Doge node provides two RPC endpoints:
 ### Connecting Polkadot JS Apps to a Local PhuQuoc Doge Node <a id="connecting-polkadot-js-apps-to-a-local-moonbeam-node"></a>
 
 The locally-running Phu Quoc Doge node is a Substrate-based node, so we can interact with it using standard Substrate tools. Let’s start by connecting it with Phu Quoc Doge JS Apps.  
-Visit https://polkadot.js.org/apps/#/explorer and you will see Polkadot JS Apps and are automatically connected to the Polkadot MainNet.
+Visit [https://polkadot.js.org/apps/\#/explorer](https://polkadot.js.org/apps/#/explorer) and you will see Polkadot JS Apps and are automatically connected to the Polkadot MainNet.
 
 ![](../../.gitbook/assets/1609227317438.jpg)
 

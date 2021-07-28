@@ -10,7 +10,7 @@ Decentralized dogs social network, it is the best social network for pets, where
 
 Phu Quoc Dog is a Substrate-based Polkadot parachain. Phu Quoc Dog is committed to providing easy-to-use blockchain infrastructure and creating a one-stop comprehensive infrastructure platform, which aims to reduce the threshold and cost for developers, while bringing them great returns.
 
-PhuquocDoge (PQD) is a real token used to run ads on pet social networking platforms as well as exchanges related to shopping for pet products and services.
+PhuquocDoge \(PQD\) is a real token used to run ads on pet social networking platforms as well as exchanges related to shopping for pet products and services.
 
 With the mission to bring connection, develop love between people and pets. PQD helps the conservation of precious dog species such as Phu Quoc dog. At the same time, taking measures to limit the killing and eating of dogs and cats. Further, contributing to the protection of wildlife species.
 
@@ -18,27 +18,30 @@ PQD brings real values to life; not only for pet lovers but also for investors w
 
 PQD is constantly learning and improving its technical system and has strategic orientation as well as appropriate tactics to meet those positive needs.
 
-
 PQD is the native token of the Polkadot network in a similar way that BTC is the native token of Bitcoin or Ether is the native token of the Ethereum blockchain.
 
-The smallest unit of account in a Substrate network (Polkadot, Kusama, etc.) is the Planck (a reference to [Planck Length](https://en.wikipedia.org/wiki/Planck_length), the smallest possible distance in the physical Universe). You can compare the Planck to Satoshis or Wei, while the PQD is like a bitcoin or an ether. Kusama tokens (KSM) are equal to 1e12 Planck, and Polkadot mainnet PQD is equal to 1e10 Planck.
+The smallest unit of account in a Substrate network \(Polkadot, Kusama, etc.\) is the Planck \(a reference to [Planck Length](https://en.wikipedia.org/wiki/Planck_length), the smallest possible distance in the physical Universe\). You can compare the Planck to Satoshis or Wei, while the PQD is like a bitcoin or an ether. Kusama tokens \(KSM\) are equal to 1e12 Planck, and Polkadot mainnet PQD is equal to 1e10 Planck.
 
-<table><thead><tr><th>Unit</th><th>Decimal Places</th><th>Example</th></tr></thead><tbody><tr><td>Planck</td><td>0</td><td>0.0000000001</td></tr><tr><td>Microdot (uPQD)</td><td>4</td><td>0.0000010000</td></tr><tr><td>Millidot (mPQD)</td><td>7</td><td>0.0010000000</td></tr><tr><td>PQD (PQD)</td><td>10</td><td>1.0000000000</td></tr></tbody></table>
+| Unit | Decimal Places | Example |
+| :--- | :--- | :--- |
+| Planck | 0 | 0.0000000001 |
+| Microdot \(uPQD\) | 4 | 0.0000010000 |
+| Millidot \(mPQD\) | 7 | 0.0010000000 |
+| PQD \(PQD\) | 10 | 1.0000000000 |
 
-You can checkout current total issuance Phu Quoc Dog Coin at https://portal.phuquocdoge.com/#/explorer
+You can checkout current total issuance Phu Quoc Dog Coin at [https://portal.phuquocdoge.com/\#/explorer](https://portal.phuquocdoge.com/#/explorer)
 
 ### Architecture
 
 Substrate and IPFS/S3 are the only required parts of the Phu Quoc Dog protocol.
 
-![](./.gitbook/assets/Architecture-PhuQuocDoge.png)
+![](.gitbook/assets/Architecture-PhuQuocDoge.png)
 
 Our project includes:
 
-- Back-end developed in PHP, running on MySQL, Elastic and using Web3J.
-- UI and Mobile app developed in React.js and React native.
-- Blockhain part : Binance Smart Chain (public and private), Polkadot Technology, either ready-to-use framework or Parathread (and Relay Chain)
-
+* Back-end developed in PHP, running on MySQL, Elastic and using Web3J.
+* UI and Mobile app developed in React.js and React native.
+* Blockhain part : Binance Smart Chain \(public and private\), Polkadot Technology, either ready-to-use framework or Parathread \(and Relay Chain\)
 
 ### Blockchain Operating System
 
@@ -58,10 +61,6 @@ Overall, using Substrate will dramatically reduce the time and work needed to im
 ### How to Engage With the Phu Quoc Dog Community
 
 {% hint style="info" %}
- Phu Quoc Dog TestNet and community will be available soon...
+Phu Quoc Dog TestNet and community will be available soon...
 {% endhint %}
-
-
-
-
 

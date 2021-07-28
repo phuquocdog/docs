@@ -32,12 +32,12 @@ services:
       - /opt/data/dev:/opt/chaindata
 ```
 
-You're free to edit the name of this node in the ARGS field. 
+You're free to edit the name of this node in the ARGS field.
 
 Now launch the node with below command:
 
 ```bash
-docker-compose up -d 
+docker-compose up -d
 ```
 
 You should get clover node runs and syncing data from the test net now. You can monitor the logs with:

@@ -6,9 +6,3 @@ This guide outlines steps to create a standalone local node to test PhuQuoc Doge
 Prerequisite: You should have cargo, and related tool-chain installed correctly. If not, please follow the instructions here: [https://substrate.dev/docs/en/knowledgebase/getting-started/](https://substrate.dev/docs/en/knowledgebase/getting-started/)
 {% endhint %}
 
-
-
-
-
-
-

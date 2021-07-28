@@ -36,7 +36,7 @@ contract Counter {
 
 ## 🌟 Explain
 
-The contract code is quite self explain: 
+The contract code is quite self explain:
 
 * A state variable `current_value` which is an unsigned integer. 
 * inc\(\) method, which increase the current\_value by one. 
@@ -59,8 +59,4 @@ Compiling your contracts...
 {% hint style="info" %}
 Truffle command will download solidity compiler at the first time. There could be some messages related to the compiler setup. It's normal.
 {% endhint %}
-
- 
-
-
 

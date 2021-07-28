@@ -1,15 +1,15 @@
 # Counter Webapp
 
-Now we have the `Counter` smart contract and deployed it to the clover local node. It's time to make changes to the web app so that it can interact with the `Counter` smart contract instance. 
+Now we have the `Counter` smart contract and deployed it to the clover local node. It's time to make changes to the web app so that it can interact with the `Counter` smart contract instance.
 
 ## Preparation
 
 ### Setup the browser wallet
 
-As it's a web application, make sure you've setup a `browser wallet` that connects to the local node. Follow the tutorials in the [Quick Start](../../quick-start/local-node/) section if you have set it up yet. In this guide, we assume you connect to the local node using the [MetaMask](../../quick-start/local-node/using-metamask.md) wallet. 
+As it's a web application, make sure you've setup a `browser wallet` that connects to the local node. Follow the tutorials in the [Quick Start](../../quick-start/local-node/) section if you have set it up yet. In this guide, we assume you connect to the local node using the [MetaMask](https://github.com/phuquocdoge/docs/tree/9d015de0355e1a15f25211cd3c3f20b9dd8a1450/quick-start/local-node/using-metamask.md) wallet.
 
 {% hint style="info" %}
- MetaMask is the most commonly used browser wallet for Ethereum like blockchain networks. We can use MetaMask to connect to PhuQuoc Doge network since PhuQuoc Doge is fully compatible with Ethereum. 
+MetaMask is the most commonly used browser wallet for Ethereum like blockchain networks. We can use MetaMask to connect to PhuQuoc Doge network since PhuQuoc Doge is fully compatible with Ethereum.
 {% endhint %}
 
 After you have the wallet installed, import the `dev account` , you can import the dev account using the seed phase:
@@ -21,7 +21,7 @@ Or using just the private key:
 > 0x03183f27e9d78698a05c24eb6732630eb17725fcf2b53ee3a6a635d6ff139680
 
 {% hint style="danger" %}
-Do not use this key or seed phase in any real chain to store your assets! It's for test only, you will lose your money if you used them  in any real chain!
+Do not use this key or seed phase in any real chain to store your assets! It's for test only, you will lose your money if you used them in any real chain!
 {% endhint %}
 
 ### Install Packges
@@ -122,7 +122,6 @@ export function useInactiveListener(suppress = false) {
     }
   }, [active, error, suppress, activate])
 }
-
 ```
 {% endcode %}
 
@@ -219,13 +218,13 @@ export default function() {
 ```
 {% endcode %}
 
-We added the `Web3ReactProvider` to the root of the application and include the `useEagerConnect` hooks in the `App` component. We also includes the `ChainId` component which will show the connected chain id and show `not connected` if no connection detected. 
+We added the `Web3ReactProvider` to the root of the application and include the `useEagerConnect` hooks in the `App` component. We also includes the `ChainId` component which will show the connected chain id and show `not connected` if no connection detected.
 
 Start the application you will see the `not connected` in the ChainId component. It's find since we haven't implement the connection logic. But you can test it by manually connect to the web app from `MetaMask`, try to figure out how to do it by yourself.
 
 ### Add the Connect Button
 
-Now let's add a button to trigger the wallet connect dialog. 
+Now let's add a button to trigger the wallet connect dialog.
 
 Edit `App.js` to add some imports:
 
@@ -321,7 +320,7 @@ and the css class for the button
 ```
 {% endcode %}
 
-The `ConnectChain` component simple renders a button if it's not connected, click it will trigger the web3 connection dialog. 
+The `ConnectChain` component simple renders a button if it's not connected, click it will trigger the web3 connection dialog.
 
 Let's add the `ConnectChain` component to the `App` component, you could place it under the `<h1>` title or somewhere else as you like.
 
@@ -329,7 +328,7 @@ Let's add the `ConnectChain` component to the `App` component, you could place i
 <ConnectChain triedEager={triedEager} />
 ```
 
-Reload the page, the `Connect` button will show up and you can click it to open the connect dialog.  After connected to the wallet, click the button will disconnect it.
+Reload the page, the `Connect` button will show up and you can click it to open the connect dialog. After connected to the wallet, click the button will disconnect it.
 
 ## Read contract state
 
@@ -439,15 +438,15 @@ function App() {
 }
 ```
 
-Here we create the counter contract using the `useContract` hook. And then we use the `useContractCallData` hook to fetch the `current_value` state from the smart contract. 
+Here we create the counter contract using the `useContract` hook. And then we use the `useContractCallData` hook to fetch the `current_value` state from the smart contract.
 
-In the renderer function, we set the current value text to the value on the chain. 
+In the renderer function, we set the current value text to the value on the chain.
 
 Save `App.js` and reload the webpage, you should see the current counter value on the page.
 
 ## Write contract state
 
-Now we can work on the inc/dec buttons, we'll add the `onClick` handler to them and call the `inc`/`dec` method correspondingly. 
+Now we can work on the inc/dec buttons, we'll add the `onClick` handler to them and call the `inc`/`dec` method correspondingly.
 
 ```javascript
 function App() {

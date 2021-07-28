@@ -1,5 +1,7 @@
 ---
-description: This section shows how to connect to PhuQuoc Doge TestNet using MetaMask or Remix
+description: >-
+  This section shows how to connect to PhuQuoc Doge TestNet using MetaMask or
+  Remix
 ---
 
 # TestNet \(Iris\)
@@ -21,22 +23,22 @@ Please refer to the following details for PhuQuoc Doge TestNet:
 * Symbol \(Optional\): `CLV`
 
 {% hint style="info" %}
-For a full list of clover networks please check out the [PhuQuoc Doge Network List](../clover-network-list.md) page.
+For a full list of clover networks please check out the [PhuQuoc Doge Network List](https://github.com/phuquocdoge/docs/tree/9d015de0355e1a15f25211cd3c3f20b9dd8a1450/quick-start/clover-network-list.md) page.
 {% endhint %}
 
 ## Using MetaMask for TestNet
 
 In MetaMask, navigate to Settings -&gt; Networks -&gt; Add Network and fill in the above details:
 
-![](../../.gitbook/assets/testnet.jpg)
+![](../../.gitbook/assets/testnet%20%281%29.jpg)
 
 Then the MetaMask can connect to PhuQuoc Doge TestNet. You can apply CLV for test via the faucet [https://faucet-iris.clover.finance/](https://faucet-iris.clover.finance/)
 
 ## Using Remix for Test Net
 
-Make sure your MetaMask is connected to PhuQuoc DogeTestNet as described above.  The screen shot is as follows:
+Make sure your MetaMask is connected to PhuQuoc DogeTestNet as described above. The screen shot is as follows:
 
-![](../../.gitbook/assets/remix.jpg)
+![](../../.gitbook/assets/remix%20%281%29.jpg)
 
 ## Connect to PhuQuoc Doge TestNet
 

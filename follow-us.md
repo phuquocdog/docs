@@ -1,25 +1,24 @@
 # Follow Us
 
-### Social Media
+## Social Media
 
 * Twitter: [https://twitter.com/phuquocdoge](https://twitter.com/phuquocdoge)
 * Medium: [https://medium.com/phuquocdoge](https://medium.com/phuquocdoge)
 
-### Official Community
+## Official Community
 
 * Telegram Group: [https://t.me/phuquocdoge](https://t.me/phuquocdoge)
 * Telegram Channel: [https://t.me/phuquocdoge](https://t.me/phuquocdoge)
 * Dev Group: [https://t.me/phuquocdoge](https://t.me/phuquocdoge)
 
-### Volunteer Community
+## Volunteer Community
 
 * Russia: [https://t.me/phuquocdoge](https://t.me/phuquocdoge_ru)
-
 * Vietnam: [https://t.me/phuquocdoge](https://t.me/phuquocdoge)
 
 Many thanks to volunteers contributed to Phu Quoc Dog
 
-### Useful Links
+## Useful Links
 
 * Website: [https://phuquocdoge.com/](https://phuquocdoge.com/)
 * Github: [https://github.com/phuquocdoge](https://github.com/phuquocdoge.com)

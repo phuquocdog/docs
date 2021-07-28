@@ -6,11 +6,11 @@ Firstly, open [PhuQuoc Doge Apps portal](https://apps.clover.finance/#/explorer)
 
 ## Generate an account using PhuQuoc Doge Apps
 
-#### Click the "Accounts" menu item in the top navigation bar.
+### Click the "Accounts" menu item in the top navigation bar.
 
 ![](../../.gitbook/assets/image%20%2832%29.png)
 
-#### New Account
+### New Account
 
 There're several buttons to add an account: "Add account", "Restore JSON", "Add via Qr", etc.
 
@@ -26,7 +26,7 @@ After setting the account information click the **"Next"** button.
 
 Click the **"Save"** button, the account will be created and the backup file will be promoted to download. Save the backup file to a safe location and keep it secret.
 
-#### Restore account from backup
+### Restore account from backup
 
 You can restore an account by restoring it from the json backup file.
 

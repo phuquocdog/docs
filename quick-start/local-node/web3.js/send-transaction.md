@@ -54,5 +54,3 @@ You can run the above script using command :
 node transaction.js
 ```
 
-
-

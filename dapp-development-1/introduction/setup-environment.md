@@ -9,14 +9,12 @@ We're going to develop DApp using truffle and react. So you need to have at leas
 Nodejs is the essential tool to develop both smart contract and create the front end app. Install the recent version of node would be enough, by writing this document, we're using v15.4.0.
 
 {% hint style="info" %}
- Super-powers are granted randomly so please submit an issue if you're not happy with yours.
+Super-powers are granted randomly so please submit an issue if you're not happy with yours.
 {% endhint %}
 
-### 🛠 [Truffle](https://www.trufflesuite.com/truffle) 
+### 🛠 [Truffle](https://www.trufflesuite.com/truffle)
 
-Truffle is a world class development environment, testing framework and asset pipeline for blockchains using the Ethereum Virtual Machine \(EVM\), aiming to make life as a developer easier. 
-
-
+Truffle is a world class development environment, testing framework and asset pipeline for blockchains using the Ethereum Virtual Machine \(EVM\), aiming to make life as a developer easier.
 
 {% hint style="info" %}
 PhuQuoc Doge provides fully compatible with Ethereum tools and we can use existing power tools like truffle, remix to develop smart contracts on PhuQuoc Doge.

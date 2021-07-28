@@ -24,9 +24,7 @@ Then the MetaMask can connect to PhuQuoc Doge TestNet. You can apply CLV for tes
 
 ## Using Remix for TestNet
 
-Make sure your MetaMask is connected to PhuQuoc Doge TestNet as described above.  The screen shot is as follows:
+Make sure your MetaMask is connected to PhuQuoc Doge TestNet as described above. The screen shot is as follows:
 
 ![](../../.gitbook/assets/remix.jpg)
-
-## 
 

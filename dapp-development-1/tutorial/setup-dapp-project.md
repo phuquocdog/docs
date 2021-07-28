@@ -2,14 +2,14 @@
 
 ## 🌽 Create a project using create-react-app
 
-Let's start with creating a frontend project using create-react-app. 
+Let's start with creating a frontend project using create-react-app.
 
-```
+```text
 npx create-react-app counter-dapp
 ```
 
 {% hint style="info" %}
- This command takes a little while to complete, be pertinent. You need to confirm the installation of create-react-app if it's your first time using this command.
+This command takes a little while to complete, be pertinent. You need to confirm the installation of create-react-app if it's your first time using this command.
 {% endhint %}
 
 Once the command complete, start the web app:
@@ -20,14 +20,14 @@ yarn start
 ```
 
 {% hint style="info" %}
-A browser window will be opened and who the web app. You can visit [http://localhost:3000/](http://localhost:3000/) either. 
+A browser window will be opened and who the web app. You can visit [http://localhost:3000/](http://localhost:3000/) either.
 {% endhint %}
 
 ## 🛠 Add counter state and buttons
 
 We'll add a simple text to show the current value of the counter state.
 
-"Inc" and "Dec" buttons to update the counter state. 
+"Inc" and "Dec" buttons to update the counter state.
 
 Edit `src/App.js` and set the `App()` function looks like below:
 
