@@ -25,6 +25,8 @@ The smallest unit of account in a Substrate network (Polkadot, Kusama, etc.) is 
 
 <table><thead><tr><th>Unit</th><th>Decimal Places</th><th>Example</th></tr></thead><tbody><tr><td>Planck</td><td>0</td><td>0.0000000001</td></tr><tr><td>Microdot (uPQD)</td><td>4</td><td>0.0000010000</td></tr><tr><td>Millidot (mPQD)</td><td>7</td><td>0.0010000000</td></tr><tr><td>PQD (PQD)</td><td>10</td><td>1.0000000000</td></tr></tbody></table>
 
+You can checkout current total issuance Phu Quoc Doge Coin at https://portal.phuquocdoge.com/#/explorer
+
 ### Architecture
 
 Substrate and IPFS/S3 are the only required parts of the Phu Quoc Doge protocol.
