@@ -10,7 +10,7 @@ With a self hosted PhuQuoc Doge RPC service you could gain below benefits:
 
 PhuQuoc Doge is a fully decentralized network, any people can setup a PhuQuoc Doge node by following this tutorial!
 
-##  🍀 Types Of Phu Quoc Doge RPC Nodes
+##  🍀 Types Of Phu Quoc Dog RPC Nodes
 
 Generally speaking, there are two kind of RPC nodes:
 

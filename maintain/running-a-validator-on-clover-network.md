@@ -80,6 +80,6 @@ Checkout [Polkadot Validate](https://wiki.polkadot.network/docs/en/maintain-guid
 
 ## 🔱 Links
 
-* [Phu Quoc Doge Testnet Apps](#)
-* [Phu Quoc Doge Mainnet Apps](#)
+* [Phu Quoc Dog Testnet Apps](#)
+* [Phu Quoc Dog Mainnet Apps](#)
 

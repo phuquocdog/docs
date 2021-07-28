@@ -10,7 +10,7 @@ We need to set a couple of values in the variable definitions, then construct an
 
 1. Create your Web3 constructor \(`Web3`\).
 2. Specify the received address, PQD amount, gas price and gas limit.
-3. Sign the transaction and broadcast it the Phu Quoc Doge chain
+3. Sign the transaction and broadcast it the Phu Quoc Dog chain
 
 The code looks like:
 

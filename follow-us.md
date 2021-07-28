@@ -17,7 +17,7 @@
 
 * Vietnam: [https://t.me/phuquocdoge](https://t.me/phuquocdoge)
 
-Many thanks to volunteers contributed to Phu Quoc Doge
+Many thanks to volunteers contributed to Phu Quoc Dog
 
 ### Useful Links
 
