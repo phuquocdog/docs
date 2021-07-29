@@ -10,11 +10,13 @@
 * Telegram Group: [https://t.me/phuquocdog](https://t.me/phuquocdog)
 * Telegram Channel: [https://t.me/phuquocdog](https://t.me/phuquocdog)
 * Dev Group: [https://t.me/phuquocdog](https://t.me/phuquocdog)
+* Reddi Group: [https://t.me/phuquocdog](https://t.me/phuquocdog)
+
 
 ## Volunteer Community
 
 * Russia: [https://t.me/phuquocdog](https://t.me/phuquocdog_ru)
-* Vietnam: [https://t.me/phuquocdog](https://t.me/phuquocdog)
+* Vietnam: [http://reddit.com/r/phuquocdog/](http://reddit.com/r/phuquocdog/)
 
 Many thanks to volunteers contributed to Phu Quoc Dog
 
