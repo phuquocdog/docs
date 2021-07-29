@@ -6,7 +6,7 @@ Now we have the `Counter` smart contract and deployed it to the clover local nod
 
 ### Setup the browser wallet
 
-As it's a web application, make sure you've setup a `browser wallet` that connects to the local node. Follow the tutorials in the [Quick Start](../../quick-start/local-node/) section if you have set it up yet. In this guide, we assume you connect to the local node using the [MetaMask](https://github.com/phuquocdoge/docs/tree/9d015de0355e1a15f25211cd3c3f20b9dd8a1450/quick-start/local-node/using-metamask.md) wallet.
+As it's a web application, make sure you've setup a `browser wallet` that connects to the local node. Follow the tutorials in the [Quick Start](../../quick-start/local-node/) section if you have set it up yet. In this guide, we assume you connect to the local node using the [MetaMask](https://github.com/phuquocdog/docs/tree/9d015de0355e1a15f25211cd3c3f20b9dd8a1450/quick-start/local-node/using-metamask.md) wallet.
 
 {% hint style="info" %}
 MetaMask is the most commonly used browser wallet for Ethereum like blockchain networks. We can use MetaMask to connect to PhuQuoc Doge network since PhuQuoc Doge is fully compatible with Ethereum.

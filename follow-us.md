@@ -2,26 +2,26 @@
 
 ## Social Media
 
-* Twitter: [https://twitter.com/phuquocdoge](https://twitter.com/phuquocdoge)
-* Medium: [https://medium.com/phuquocdoge](https://medium.com/phuquocdoge)
+* Twitter: [https://twitter.com/phuquocdog](https://twitter.com/phuquocdog)
+* Medium: [https://medium.com/phuquocdog](https://medium.com/phuquocdog)
 
 ## Official Community
 
-* Telegram Group: [https://t.me/phuquocdoge](https://t.me/phuquocdoge)
-* Telegram Channel: [https://t.me/phuquocdoge](https://t.me/phuquocdoge)
-* Dev Group: [https://t.me/phuquocdoge](https://t.me/phuquocdoge)
+* Telegram Group: [https://t.me/phuquocdog](https://t.me/phuquocdog)
+* Telegram Channel: [https://t.me/phuquocdog](https://t.me/phuquocdog)
+* Dev Group: [https://t.me/phuquocdog](https://t.me/phuquocdog)
 
 ## Volunteer Community
 
-* Russia: [https://t.me/phuquocdoge](https://t.me/phuquocdoge_ru)
-* Vietnam: [https://t.me/phuquocdoge](https://t.me/phuquocdoge)
+* Russia: [https://t.me/phuquocdog](https://t.me/phuquocdog_ru)
+* Vietnam: [https://t.me/phuquocdog](https://t.me/phuquocdog)
 
 Many thanks to volunteers contributed to Phu Quoc Dog
 
 ## Useful Links
 
-* Website: [https://phuquocdoge.com/](https://phuquocdoge.com/)
-* Github: [https://github.com/phuquocdoge](https://github.com/phuquocdoge.com)
-* LitePaper: [https://phuquocdoge.com/litepaper.pdf](https://phuquocdoge.com)
-* Docs: [https://docs.phuquocdoge.com](https://docs.phuquocdoge.com/)
+* Website: [https://phuquocdog.com/](https://phuquocdog.com/)
+* Github: [https://github.com/phuquocdog](https://github.com/phuquocdog.com)
+* LitePaper: [https://phuquocdog.com/litepaper.pdf](https://phuquocdog.com)
+* Docs: [https://docs.phuquocdog.com](https://docs.phuquocdog.com/)
 

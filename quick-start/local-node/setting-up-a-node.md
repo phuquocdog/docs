@@ -50,10 +50,10 @@ source ~/.cargo/env
 
 ## 3. Compile the node
 
-Let's start by cloning the master branch of the Phu Quoc Doge repo that you can find here: [https://github.com/phuquocdoge/node](https://github.com/phuquocdoge/node)
+Let's start by cloning the master branch of the Phu Quoc Doge repo that you can find here: [https://github.com/phuquocdog/node](https://github.com/phuquocdog/node)
 
 ```bash
-git clone https://github.com/phuquocdoge/node
+git clone https://github.com/phuquocdog/node
 cd node
 ```
 
@@ -73,18 +73,18 @@ The initial build will take a while, depending on your hardware. It may take 30 
 Then you will want to run the node in dev mode using the following command:
 
 ```text
-./target/release/phuquocdoge-node --dev --rpc-cors=all  --unsafe-rpc-external  --unsafe-ws-external --validator --tmp -lruntime=debug
+./target/release/phuquocdog-node --dev --rpc-cors=all  --unsafe-rpc-external  --unsafe-ws-external --validator --tmp -lruntime=debug
 ```
 
 You should see an output that looks like the following, showing that blocks are being produced:
 
 ```text
-tranduythien at ThienTran in ~/github/phuquocdoge-node on master                                                         [4/23]
-$ ./target/release/phuquocdoge-node --dev --rpc-cors=all  --unsafe-rpc-external  --unsafe-ws-external --validator --tmp -lrunti
+tranduythien at ThienTran in ~/github/phuquocdog-node on master                                                         [4/23]
+$ ./target/release/phuquocdog-node --dev --rpc-cors=all  --unsafe-rpc-external  --unsafe-ws-external --validator --tmp -lrunti
 me=debug                                                                                                                       
 2021-07-19 15:15:21.147  INFO main sc_cli::runner: Substrate Node                                                              
 2021-07-19 15:15:21.148  INFO main sc_cli::runner: ✌️  version 3.0.0-1ba3f05-x86_64-macos                                       
-2021-07-19 15:15:21.148  INFO main sc_cli::runner: ❤️  by Substrate DevHub <https://github.com/phuquocdoge>, 2017-2021    
+2021-07-19 15:15:21.148  INFO main sc_cli::runner: ❤️  by Substrate DevHub <https://github.com/phuquocdog>, 2017-2021    
 2021-07-19 15:15:21.148  INFO main sc_cli::runner: 📋 Chain specification: Phu Quoc Doge Development    
 2021-07-19 15:15:21.148  INFO main sc_cli::runner: 🏷 Node name: disagreeable-square-6658    
 2021-07-19 15:15:21.149  INFO main sc_cli::runner: 👤 Role: AUTHORITY    

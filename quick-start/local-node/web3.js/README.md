@@ -8,7 +8,7 @@ description: Using Web3.js to interact with PhuQuoc Doge
 
 This guide walks through the process of using [web3.js](https://github.com/ethereum/web3.js/) to manually sign and send a transaction to a PhuQuoc Doge standalone node. For this example, we will use Node.js and straightforward JavaScript code.
 
-The guide assumes that you have a local PhuQuoc Doge node running in `--dev` mode. You can find instructions to set up a local PhuQuoc Doge node [here](https://phuquocdoge-network.gitbook.io/portal/quick-start/local-node/setting-up-a-node).
+The guide assumes that you have a local PhuQuoc Doge node running in `--dev` mode. You can find instructions to set up a local PhuQuoc Doge node [here](https://phuquocdog-network.gitbook.io/portal/quick-start/local-node/setting-up-a-node).
 
 ## Checking Prerequisites <a id="checking-prerequisites"></a>
 
@@ -53,7 +53,7 @@ npm -v
 You can create a repository on your local environment by running:
 
 ```text
-mkdir phuquocdoge-web3 && cd phuquocdoge-web3/
+mkdir phuquocdog-web3 && cd phuquocdog-web3/
 npm init --yes
 npm install web3 --save
 ```

@@ -10,7 +10,7 @@ Decentralized dogs social network, it is the best social network for pets, where
 
 Phu Quoc Dog is a Substrate-based Polkadot parachain. Phu Quoc Dog is committed to providing easy-to-use blockchain infrastructure and creating a one-stop comprehensive infrastructure platform, which aims to reduce the threshold and cost for developers, while bringing them great returns.
 
-PhuquocDoge \(PQD\) is a real token used to run ads on pet social networking platforms as well as exchanges related to shopping for pet products and services.
+PQD is a real token used to run ads on pet social networking platforms as well as exchanges related to shopping for pet products and services.
 
 With the mission to bring connection, develop love between people and pets. PQD helps the conservation of precious dog species such as Phu Quoc dog. At the same time, taking measures to limit the killing and eating of dogs and cats. Further, contributing to the protection of wildlife species.
 
@@ -29,7 +29,7 @@ The smallest unit of account in a Substrate network \(Polkadot, Kusama, etc.\) i
 | Millidot \(mPQD\) | 7 | 0.0010000000 |
 | PQD \(PQD\) | 10 | 1.0000000000 |
 
-You can checkout current total issuance Phu Quoc Dog Coin at [https://portal.phuquocdoge.com/\#/explorer](https://portal.phuquocdoge.com/#/explorer)
+You can checkout current total issuance Phu Quoc Dog Coin at [https://portal.phuquocdog.com/\#/explorer](https://portal.phuquocdog.com/#/explorer)
 
 ### Architecture
 

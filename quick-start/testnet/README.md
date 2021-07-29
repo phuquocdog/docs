@@ -23,7 +23,7 @@ Please refer to the following details for PhuQuoc Doge TestNet:
 * Symbol \(Optional\): `CLV`
 
 {% hint style="info" %}
-For a full list of clover networks please check out the [PhuQuoc Doge Network List](https://github.com/phuquocdoge/docs/tree/9d015de0355e1a15f25211cd3c3f20b9dd8a1450/quick-start/clover-network-list.md) page.
+For a full list of clover networks please check out the [PhuQuoc Doge Network List](https://github.com/phuquocdog/docs/tree/9d015de0355e1a15f25211cd3c3f20b9dd8a1450/quick-start/clover-network-list.md) page.
 {% endhint %}
 
 ## Using MetaMask for TestNet
