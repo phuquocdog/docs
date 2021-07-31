@@ -1,2 +1,2 @@
-# Phu Quoc Dog Mobile Wallet
+# PhuQuoc Doge Mobile Wallet
 

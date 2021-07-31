@@ -14,25 +14,25 @@
   * [Web3.js](quick-start/local-node/web3.js/README.md)
     * [Query Balance](quick-start/local-node/web3.js/query-balance.md)
     * [Send Transaction](quick-start/local-node/web3.js/send-transaction.md)
-* [TestNet \(Iris\)](quick-start/testnet/README.md)
-  * [Create an account](quick-start/testnet/create-an-account.md)
-  * [Faucet](quick-start/testnet/faucet.md)
-  * [PhuQuoc Doge Explorer](quick-start/testnet/clover-explorer.md)
-  * [Run a PhuQuoc Doge node](quick-start/testnet/run-a-clover-node.md)
-  * [Connect to TestNet network](quick-start/testnet/connect-to-test-network.md)
-* [PhuQuoc Doge Network List](quick-start/phuquoc-doge-network-list.md)
+* [TestNet \(Quark\)](quick-start/testnet-iris/README.md)
+  * [Create an account](quick-start/testnet-iris/create-an-account.md)
+  * [Faucet](quick-start/testnet-iris/faucet.md)
+  * [PhuQuoc Doge Explorer](quick-start/testnet-iris/phuquoc-doge-explorer.md)
+  * [Run a PhuQuoc Doge node](quick-start/testnet-iris/run-a-phuquoc-doge-node.md)
+  * [Connect to TestNet network](quick-start/testnet-iris/connect-to-testnet-network.md)
+* [Phu Quoc Dog Network List](quick-start/phuquoc-doge-network-list.md)
 
 ## PhuQuoc Doge DAPP Development <a id="dapp-development-1"></a>
 
 * [Introduction](dapp-development-1/introduction/README.md)
   * [Prerequisites](dapp-development-1/introduction/prerequisites.md)
   * [Setup environment](dapp-development-1/introduction/setup-environment.md)
-* [Counter Tutorial](dapp-development-1/tutorial/README.md)
-  * [Setup dapp project](dapp-development-1/tutorial/setup-dapp-project.md)
-  * [Setup truffle](dapp-development-1/tutorial/setup-truffle.md)
-  * [The Counter Contract](dapp-development-1/tutorial/the-counter-contract.md)
-  * [Deploy Contract](dapp-development-1/tutorial/deploy-contract.md)
-  * [Counter Webapp](dapp-development-1/tutorial/counter-webapp.md)
+* [Counter Tutorial](dapp-development-1/counter-tutorial/README.md)
+  * [Setup dapp project](dapp-development-1/counter-tutorial/setup-dapp-project.md)
+  * [Setup truffle](dapp-development-1/counter-tutorial/setup-truffle.md)
+  * [The Counter Contract](dapp-development-1/counter-tutorial/the-counter-contract.md)
+  * [Deploy Contract](dapp-development-1/counter-tutorial/deploy-contract.md)
+  * [Counter Webapp](dapp-development-1/counter-tutorial/counter-webapp.md)
 
 ## PhuQuoc Doge Eco Incentive Program
 
@@ -62,7 +62,7 @@
 
 ## Maintain
 
-* [Running a validator on PhuQuoc Doge Network](maintain/running-a-validator-on-clover-network.md)
+* [Running a validator on Phu Quoc Dog Network](maintain/running-a-validator-on-clover-network.md)
 * [Running a RPC node](maintain/running-a-rpc-node.md)
 
 ## Technical Documentation
@@ -104,8 +104,8 @@
   * [net\_listening](technical-documentation/web3-compatibility/net_listening.md)
   * [web3\_clientVersion](technical-documentation/web3-compatibility/web3_clientversion.md)
   * [web3\_sha3](technical-documentation/web3-compatibility/web3_sha3.md)
-* [PhuQuoc Doge Test Cases](technical-documentation/phuquoc-doge-test-cases.md)
-* [PhuQuoc Doge EVM](technical-documentation/phuquoc-doge-evm.md)
+* [Phu Quoc Dog Test Cases](technical-documentation/phuquoc-doge-test-cases.md)
+* [Phu Quoc Dog EVM](technical-documentation/phuquoc-doge-evm.md)
 * [PhuQuoc Doge Accounts Binding](technical-documentation/phuquoc-doge-accounts-binding.md)
 * [Query Balance](technical-documentation/query-banalnce.md)
 * [Transaction Finality](technical-documentation/transaction-finality.md)
