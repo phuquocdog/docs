@@ -1,2 +1,2 @@
-# Phu Quoc Doge Web Wallet
+# PhuQuoc Doge Web Wallet
 

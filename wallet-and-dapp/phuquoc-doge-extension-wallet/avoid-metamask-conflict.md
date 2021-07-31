@@ -1,0 +1,2 @@
+# Avoid Metamask Conflict
+

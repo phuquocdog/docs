@@ -2,7 +2,7 @@
 
 ## 1. Install build tools & libraries <a id="__docusaurus"></a>
 
-PhuQuoc Doge is the easiest to be set up on Unix-based operating systems like macOS or Linux. Here is the instruction on installing Rust's toolchains. If you have already done this, please go to the Step 3.
+Phu Quoc Dog is the easiest to be set up on Unix-based operating systems like macOS or Linux. Here is the instruction on installing Rust's toolchains. If you have already done this, please go to Step 3.
 
 #### macOS
 
@@ -50,7 +50,7 @@ source ~/.cargo/env
 
 ## 3. Compile the node
 
-Let's start by cloning the master branch of the Phu Quoc Doge repo that you can find here: [https://github.com/phuquocdog/node](https://github.com/phuquocdog/node)
+Let's start by cloning the master branch of the Phu Quoc Dog repo that you can find here: [https://github.com/phuquocdog/node](https://github.com/phuquocdog/node)
 
 ```bash
 git clone https://github.com/phuquocdog/node
@@ -110,9 +110,9 @@ The local standalone PhuQuoc Doge node provides two RPC endpoints:
 * WS: `ws://127.0.0.1:9944`
 {% endhint %}
 
-### Connecting Polkadot JS Apps to a Local PhuQuoc Doge Node <a id="connecting-polkadot-js-apps-to-a-local-moonbeam-node"></a>
+### Connecting Polkadot JS Apps to a Local Phu Quoc Dog Node <a id="connecting-polkadot-js-apps-to-a-local-moonbeam-node"></a>
 
-The locally-running Phu Quoc Doge node is a Substrate-based node, so we can interact with it using standard Substrate tools. Let’s start by connecting it with Phu Quoc Doge JS Apps.  
+The locally-running Phu Quoc Dog node is a Substrate-based node, so we can interact with it using standard Substrate tools. Let’s start by connecting it with Phu Quoc Dog JS Apps.  
 Visit [https://polkadot.js.org/apps/\#/explorer](https://polkadot.js.org/apps/#/explorer) and you will see Polkadot JS Apps and are automatically connected to the Polkadot MainNet.
 
 ![](../../.gitbook/assets/1609227317438.jpg)
