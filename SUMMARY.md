@@ -14,7 +14,7 @@
   * [Web3.js](quick-start/local-node/web3.js/README.md)
     * [Query Balance](quick-start/local-node/web3.js/query-balance.md)
     * [Send Transaction](quick-start/local-node/web3.js/send-transaction.md)
-* [TestNet \(Iris\)](quick-start/testnet-iris/README.md)
+* [TestNet \(Quark\)](quick-start/testnet-iris/README.md)
   * [Create an account](quick-start/testnet-iris/create-an-account.md)
   * [Faucet](quick-start/testnet-iris/faucet.md)
   * [PhuQuoc Doge Explorer](quick-start/testnet-iris/phuquoc-doge-explorer.md)
@@ -62,7 +62,7 @@
 
 ## Maintain
 
-* [Running a validator on PhuQuoc Doge Network](maintain/running-a-validator-on-clover-network.md)
+* [Running a validator on Phu Quoc Dog Network](maintain/running-a-validator-on-clover-network.md)
 * [Running a RPC node](maintain/running-a-rpc-node.md)
 
 ## Technical Documentation
@@ -104,8 +104,8 @@
   * [net\_listening](technical-documentation/web3-compatibility/net_listening.md)
   * [web3\_clientVersion](technical-documentation/web3-compatibility/web3_clientversion.md)
   * [web3\_sha3](technical-documentation/web3-compatibility/web3_sha3.md)
-* [PhuQuoc Doge Test Cases](technical-documentation/phuquoc-doge-test-cases.md)
-* [PhuQuoc Doge EVM](technical-documentation/phuquoc-doge-evm.md)
+* [Phu Quoc Dog Test Cases](technical-documentation/phuquoc-doge-test-cases.md)
+* [Phu Quoc Dog EVM](technical-documentation/phuquoc-doge-evm.md)
 * [PhuQuoc Doge Accounts Binding](technical-documentation/phuquoc-doge-accounts-binding.md)
 * [Query Balance](technical-documentation/query-banalnce.md)
 * [Transaction Finality](technical-documentation/transaction-finality.md)

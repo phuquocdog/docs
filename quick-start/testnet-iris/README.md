@@ -1,2 +1,2 @@
-# TestNet \(Iris\)
+# TestNet \(Quark\)
 
