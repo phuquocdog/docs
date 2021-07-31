@@ -17,7 +17,7 @@ Super-powers are granted randomly so please submit an issue if you're not happy 
 Truffle is a world class development environment, testing framework and asset pipeline for blockchains using the Ethereum Virtual Machine \(EVM\), aiming to make life as a developer easier.
 
 {% hint style="info" %}
-PhuQuoc Doge provides fully compatible with Ethereum tools and we can use existing power tools like truffle, remix to develop smart contracts on PhuQuoc Doge.
+Phu Quoc Dog provides fully compatible with Ethereum tools and we can use existing power tools like truffle, remix to develop smart contracts on PhuQuoc Doge.
 {% endhint %}
 
 ```bash
@@ -36,11 +36,11 @@ Create React App is an officially supported way to create single-page React appl
 npx create-react-app
 ```
 
-## 🚀 [PhuQuoc Doge local node](../../quick-start/local-node/)
+## 🚀 [Phu Quoc Dog local node](../../quick-start/local-node/)
 
 We assume you start your clover local node using below command, you might need to adjust some settings if you start clover use a different command arguments.
 
 ```bash
-./target/release/clover --dev --alice
+./target/release/phuquocdog --dev --alice
 ```
 

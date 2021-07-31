@@ -1,2 +1,0 @@
-# Bind Token Tool
-

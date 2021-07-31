@@ -5,7 +5,7 @@ Developing a DApp requires you familiar with several tools. We'll use some tools
 ## 🛠 [Solidity](https://docs.soliditylang.org/en/v0.7.5/)
 
 {% hint style="info" %}
-Solidity is an object-oriented, high-level language for implementing smart contracts. Smart contracts are programs which govern the behavior of accounts within the PhuQuoc Doge state.
+Solidity is an object-oriented, high-level language for implementing smart contracts. Smart contracts are programs which govern the behavior of accounts within the Phu Quoc Dog state.
 {% endhint %}
 
 We'll use to solidity as the programming language to write on-chain logic.
