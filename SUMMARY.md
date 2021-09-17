@@ -62,7 +62,7 @@
 
 ## Maintain
 
-* [Running a validator on Phu Quoc Dog Network](maintain/running-a-validator-on-clover-network.md)
+* [Running a validator on Phu Quoc Dog Network](maintain/running-a-validator-on-phuquocdog-network.md)
 * [Running a RPC node](maintain/running-a-rpc-node.md)
 
 ## Technical Documentation
