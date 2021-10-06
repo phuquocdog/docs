@@ -111,13 +111,13 @@ This step will take a while \(generally 10 - 40 minutes, depending on your hardw
 If you don't want to build the binary from the source and simply prefer to download it, use the following command. Then continue at Synchronize Chain Data 
 
 ```text
-curl -o phuquocdog-node https://portal.phuquoc.dog/binary/phuquocdog-node
+curl -O -L -o phuquocdog-node https://portal.phuquoc.dog/binary/phuquocdog-node
 ```
 
 If your server running on ARM you need to download the file below
 
 ```text
-curl -o phuquocdog-node https://portal.phuquoc.dog/binary/phuquocdog-node-arm
+curl -O -L -o phuquocdog-node https://portal.phuquoc.dog/binary/phuquocdog-node-arm
 ```
 
 #### Synchronize Chain Data
@@ -132,10 +132,75 @@ curl -O -L https://raw.githubusercontent.com/phuquocdog/node/master/node/res/phu
 You can begin syncing your node by running the following commands if you do not want to start in validator mode right away:
 
 ```text
-/home/ubuntu/phuquocdog-node --chain /home/ubuntu/phuquocdog.json --validator --rpc-cors=all --bootnodes /ip4/34.209.135.220/tcp/30333/p2p/12D3KooWEc9LZpacBXG48bVVjZNUaXaQHR4qoW74Xf9tmNw1Sk4P --name  PQD02 --base-path /home/ubuntu/data
+chmod +x $HOME/phuquocdog-node
+$HOME/phuquocdog-node --chain $HOME/phuquocdog.json --validator --rpc-cors=all --bootnodes /ip4/34.209.135.220/tcp/30333/p2p/12D3KooWEc9LZpacBXG48bVVjZNUaXaQHR4qoW74Xf9tmNw1Sk4P --name  PQD-G01 --base-path $HOME/data
 ```
 
+Then the result should be like that
 
+```text
+tranduythien@pqd-g01:~$ $HOME/phuquocdog-node --chain $HOME/phuquocdog.json --validator --rpc-cors=all --bootnodes /ip4/34.209.135.220/tcp/30333/p2p/12D3KooWEc9LZpacBXG48bVVjZNUaXaQHR4qoW74Xf9tmNw1Sk4P --name  PQD-G01 --base-path $HOME/data
+2021-10-06 15:20:42 Phuquocdog Node    
+2021-10-06 15:20:42 ✌️  version 3.0.0-d7a4013-x86_64-linux-gnu    
+2021-10-06 15:20:42 ❤️  by Phu Quoc Dog <https://phuquoc.dog>, 2017-2021    
+2021-10-06 15:20:42 📋 Chain specification: Phuquocdog Main Network    
+2021-10-06 15:20:42 🏷 Node name: PQD-G01    
+2021-10-06 15:20:42 👤 Role: AUTHORITY    
+2021-10-06 15:20:42 💾 Database: RocksDb at /home/tranduythien/data/chains/phuquocdog_main_network/db/full    
+2021-10-06 15:20:42 ⛓  Native runtime: node-270 (phuquocdog-official-0.tx2.au10)    
+2021-10-06 15:20:43 🔨 Initializing Genesis block/state (state: 0x4bba…5ae2, header-hash: 0xbbe6…1d84)    
+2021-10-06 15:20:43 👴 Loading GRANDPA authority set from genesis on what appears to be first startup.    
+2021-10-06 15:20:46 ⏱  Loaded block-time = 12s from block 0xbbe65b0d6c309386a01b852ce910965607a926ac8263c640559d783539851d84    
+2021-10-06 15:20:46 👶 Creating empty BABE epoch changes on what appears to be first startup.    
+2021-10-06 15:20:46 🏷 Local node identity is: 12D3KooWCjogLMicHPuFwK63Cs8RUsLGKF97HeiiVhPi6aGSeWnx    
+2021-10-06 15:20:46 📦 Highest known block at #0    
+2021-10-06 15:20:46 〽️ Prometheus exporter started at 127.0.0.1:9615    
+2021-10-06 15:20:46 Listening for new connections on 127.0.0.1:9944.    
+2021-10-06 15:20:46 👶 Starting BABE Authorship worker    
+2021-10-06 15:20:47 🔍 Discovered new external address for our node: /ip4/104.197.250.61/tcp/30333/p2p/12D3KooWCjogLMicHPuFwK63Cs8RUsLGKF97HeiiVhPi6aGSeWnx    
+2021-10-06 15:20:51 ⚙️  Syncing, target=#5909 (2 peers), best: #2815 (0xdfda…31d9), finalized #2560 (0xc10e…8950), ⬇ 266.0kiB/s ⬆ 4.1kiB/s    
+2021-10-06 15:20:53 [#3967] 🗳  creating a snapshot with metadata SolutionOrSnapshotSize { voters: 5, targets: 4 }    
+2021-10-06 15:20:53 [#3967] 🗳  Starting signed phase round 1.    
+2021-10-06 15:20:54 [#4267] 🗳  Starting unsigned phase round 1 enabled true.    
+2021-10-06 15:20:54 [#4268] 🗳  queued unsigned solution with score [153846153846, 46461538461537, 1550343195266213964497041421]    
+2021-10-06 15:20:54 [4567] 💸 new validator set of size 3 has been processed for era 1    
+2021-10-06 15:20:56 💤 Idle (2 peers), best: #5731 (0xfb0c…e0b2), finalized #5632 (0x6685…972c), ⬇ 52.5kiB/s ⬆ 0.8kiB/s    
+2021-10-06 15:21:01 💤 Idle (2 peers), best: #5909 (0x4ea9…8ba3), finalized #5767 (0xc2c2…48b8), ⬇ 0.5kiB/s ⬆ 0.4kiB/s    
+2021-10-06 15:21:06 💤 Idle (2 peers), best: #5909 (0x4ea9…8ba3), finalized #5767 (0xc2c2…48b8), ⬇ 0.2kiB/s ⬆ 0.1kiB/s    
+2021-10-06 15:21:11 💤 Idle (2 peers), best: #5909 (0x4ea9…8ba3), finalized #5767 (0xc2c2…48b8), ⬇ 0 ⬆ 0    
+2021-10-06 15:21:16 💤 Idle (2 peers), best: #5909 (0x4ea9…8ba3), finalized #5767 (0xc2c2…48b8), ⬇ 0 ⬆ 0.2kiB/s    
+2021-10-06 15:21:21 💤 Idle (2 peers), best: #5909 (0x4ea9…8ba3), finalized #5767 (0xc2c2…48b8), ⬇ 0.6kiB/s ⬆ 0.1kiB/s    
+2021-10-06 15:21:26 💤 Idle (2 peers), best: #5909 (0x4ea9…8ba3), finalized #5767 (0xc2c2…48b8), ⬇ 0 ⬆ 0    
+```
+
+### **Running a validator as a service**
+
+Prepare a  `phuquocdog.service`  file
+
+```text
+[Unit]
+Description=Phuquocdog Mainnet Validator Service
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+User=ubuntu
+Group=ubuntu
+ExecStart=/home/ubuntu/phuquocdog-node --chain /home/ubuntu/phuquocdog.json --validator --rpc-cors=all --bootnodes /ip4/34.209.135.220/tcp/30333/p2p/12D3KooWEc9LZpacBXG48bVVjZNUaXaQHR4qoW74Xf9tmNw1Sk4P --name  PQD-G01 --base-path /home/ubuntu/data
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
+```
+
+Run a validator as a service
+
+```text
+sudo systemctl daemon-reload
+sudo systemctl start phuquocdog
+sudo systemctl status phuquocdog
+
+```
 
 ## 💹 Bond PQD
 
