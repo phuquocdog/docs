@@ -85,16 +85,16 @@ sudo ntpq -p
 
 ## ⚙ Setup PhuQuoc Doge Validator Node
 
-Currently, we only have **PhuQuoc Doge Testnet**\(**Quarks**\) and **Phu Quoc Dog Mainnet**\(Bosons\) launched. Phu Quoc Dog Testnet opens for validators to join. _Phu Quoc Doge Mainnet operates in the POA mode and maintained by 6 nodes belongs to the Phu Quoc Dog foundation_.
+Currently, we only have **PhuQuoc Doge Testnet**\(**Quarks**\) and **Phu Quoc Dog Mainnet**\(Bosons\) launched. Phu Quoc Dog Testnet opens for validators to join. _Phu Quoc Doge Mainnet operates in the NPOS mode and maintained by 6 nodes belongs to the Phu Quoc Dog Foundation_.
 
 Validator Configuration for Phu Quoc Dog Mainnet will be updated later once it's ready for staking and validators can join.
 
 **Build from source**
 
-To build the `Polkadex` binary from the [Node](https://github.com/phuquoc/node) repository on GitHub using the source code available in the v0.4.1-rc5 release.
+To build the `Phuquocdog` binary from the [Node](https://github.com/phuquoc/node) repository on GitHub using the source code available in the 1.0.1 release.
 
 ```text
-git clone https://github.com/phuquoc/node.git
+git clone https://github.com/phuquocdog/node.git
 cd node
 ```
 
@@ -106,11 +106,23 @@ cargo build --release
 
 This step will take a while \(generally 10 - 40 minutes, depending on your hardware\).
 
-#### 
+**Using a prebuilt**
+
+If you don't want to build the binary from the source and simply prefer to download it, use the following command. Then continue at Synchronize Chain Data 
+
+```text
+curl -o phuquocdog-node https://portal.phuquoc.dog/binary/phuquocdog-node
+```
+
+If your server running on ARM you need to download the file below
+
+```text
+curl -o phuquocdog-node https://portal.phuquoc.dog/binary/phuquocdog-node-arm
+```
 
 #### Synchronize Chain Data
 
-Download `customSpecRaw.json` file for the Polkadex Public Testnet
+Download `phuquocdog.json` file for the Phuquocdog mainnet
 
 ```text
 cd $HOME
@@ -120,12 +132,10 @@ curl -O -L https://raw.githubusercontent.com/phuquocdog/node/master/node/res/phu
 You can begin syncing your node by running the following commands if you do not want to start in validator mode right away:
 
 ```text
-/home/ubuntu/phuquocdog --chain /home/ubuntu/phuquocdog.json --validator --rpc-cors=all --bootnodes /ip4/34.209.135.220/tcp/30333/p2p/12D3KooWDzJJ1DHAqbzT5RZbXji6powSkj5ZioSHSLnYXiqRD34q --name  Mynode03 --base-path /home/ubuntu/data
+/home/ubuntu/phuquocdog-node --chain /home/ubuntu/phuquocdog.json --validator --rpc-cors=all --bootnodes /ip4/34.209.135.220/tcp/30333/p2p/12D3KooWEc9LZpacBXG48bVVjZNUaXaQHR4qoW74Xf9tmNw1Sk4P --name  PQD02 --base-path /home/ubuntu/data
 ```
 
-## 🚀 Bring up the validator node
 
-Use the below command to bring up the validator node:
 
 ## 💹 Bond PQD
 
