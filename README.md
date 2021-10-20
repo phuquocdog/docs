@@ -6,7 +6,7 @@ This site will be updated from as Phu Quoc Dog evolves. We welcome everyone join
 
 ## What is Phu Quoc Dog
 
-Decentralized dogs social network, it is the best social network for pets, where you can share photos and videos of your pet's life, rescue puppies, adopt a pet, find pet friendly places and take advantage of our useful pet services. Join the moon mission. 🐶
+Decentralized social network and NFT platform for pets. Where you can share photos and videos of your pet's life, rescue puppies, adopt a pet, find pet friendly places and take advantage of our useful pet services. Join the moon mission.
 
 Phu Quoc Dog is a Substrate-based. Phu Quoc Dog is committed to providing easy-to-use blockchain infrastructure and creating a one-stop comprehensive infrastructure platform, which aims to reduce the threshold and cost for developers, while bringing them great returns.
 
@@ -14,16 +14,16 @@ PQD is a real token used to run ads on pet social networking platforms as well a
 
 PQD is the native token of the Phu Quoc Dog network in a similar way that BTC is the native token of Bitcoin or Ether is the native token of the Ethereum blockchain.
 
-The smallest unit of account in a Substrate network is the Planck \(a reference to [Planck Length](https://en.wikipedia.org/wiki/Planck_length), the smallest possible distance in the physical Universe\). You can compare the Planck to Satoshis or Wei, while the PQD is like a bitcoin or an ether. Phu Quoc Doge mainnet is equal to 1e10 Planck.
+The smallest unit of account in a Substrate network is the Planck (a reference to [Planck Length](https://en.wikipedia.org/wiki/Planck\_length), the smallest possible distance in the physical Universe). You can compare the Planck to Satoshis or Wei, while the PQD is like a bitcoin or an ether. Phu Quoc Doge mainnet is equal to 1e10 Planck.
 
-| Unit | Decimal Places | Example |
-| :--- | :--- | :--- |
-| Planck | 0 | 0.0000000001 |
-| Microdot \(uPQD\) | 4 | 0.0000010000 |
-| Millidot \(mPQD\) | 7 | 0.0010000000 |
-| PQD \(PQD\) | 10 | 1.0000000000 |
+| Unit            | Decimal Places | Example      |
+| --------------- | -------------- | ------------ |
+| Planck          | 0              | 0.0000000001 |
+| Microdot (uPQD) | 4              | 0.0000010000 |
+| Millidot (mPQD) | 7              | 0.0010000000 |
+| PQD (PQD)       | 10             | 1.0000000000 |
 
-You can checkout current total issuance Phu Quoc Dog Coin at [https://portal.phuquoc.dog/\#/explorer](https://portal.phuquoc.dog/#/explorer)
+You can checkout current total issuance Phu Quoc Dog Coin at [https://portal.phuquoc.dog/#/explorer](https://portal.phuquoc.dog/#/explorer)
 
 ### Architecture
 
@@ -35,7 +35,7 @@ Our project includes:
 
 * Back-end developed in PHP, running on MySQL, Elastic and using Web3js.
 * UI and Mobile app developed in React.js and React native.
-* Blockhain part : Binance Smart Chain \(public and private\), Substrate Technology, either ready-to-use framework or Parathread \(and Relay Chain\).
+* Blockhain part : Binance Smart Chain (public and private), Substrate Technology, either ready-to-use framework or Parathread (and Relay Chain).
 * Substrate Wallets supports blockchain Phu Quoc Dog and Polkadot.
 
 ### Blockchain Operating System
@@ -56,4 +56,3 @@ Substrate is technically fit for Phu Quoc Dog. By building on top of Substrate, 
 {% hint style="info" %}
 Phu Quoc Dog TestNet and community will be available soon...
 {% endhint %}
-
