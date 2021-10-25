@@ -6,7 +6,7 @@ This site will be updated from as Phu Quoc Dog evolves. We welcome everyone join
 
 ## What is Phu Quoc Dog
 
-Decentralized social network and NFT platform for pets. Where you can share photos and videos of your pet's life, rescue puppies, adopt a pet, find pet friendly places and take advantage of our useful pet services. Join the moon mission.
+Decentralized social network and NFT platform for pets. Where you can share photos and videos of your pet's life, rescue puppies, adopt a pet, find pet friendly places and take advantage of our useful pet services. Dog protocol.
 
 Phu Quoc Dog is a Substrate-based. Phu Quoc Dog is committed to providing easy-to-use blockchain infrastructure and creating a one-stop comprehensive infrastructure platform, which aims to reduce the threshold and cost for developers, while bringing them great returns.
 
