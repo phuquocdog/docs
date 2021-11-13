@@ -1,12 +1,12 @@
 # Running a validator on Phu Quoc Dog Network
 
-This guide will instruct you on how to set up a Phu Quoc Doge validator node on Phu Quoc Dog networks \(Testnet/Mainnet\).
+This guide will instruct you on how to set up a Phu Quoc Doge validator node on Phu Quoc Dog networks (Testnet/Mainnet).
 
 ## 👉 Must Read Before Start.
 
 Running a validator is a serious thing, you have a lot of responsibility for the staked tokens of you and nominators. You take the risk of losing your staked tokens as a slash might happen if your validator node is not properly configured. Please make sure you or your team have the necessary knowledge to run a validator node.
 
-[Polkadot Wiki ](https://wiki.polkadot.network/docs/en/maintain-guides-how-to-validate-polkadot)has an awesome introduction of running a validator node on the [Polkadot network](https://polkadot.network/). As a member of the Polkadot ecosystem, Phu Quoc Dog follows a similar process to run and setup a validator node. We may skip some basics steps in this tutorial.
+[Polkadot Wiki ](https://wiki.polkadot.network/docs/en/maintain-guides-how-to-validate-polkadot)has an awesome introduction of running a validator node on the [Polkadot network](https://polkadot.network). As a member of the Polkadot ecosystem, Phu Quoc Dog follows a similar process to run and setup a validator node. We may skip some basics steps in this tutorial.
 
 ## 🛠 Hardware Requirements
 
@@ -27,19 +27,19 @@ If you intend to build from source you need to install Rust first.
 
 If you have already installed Rust, run the following command to make sure you are using the latest version.
 
-```text
+```
 rustup update
 ```
 
 If not, this command will fetch the latest version of Rust and install it.
 
-```text
+```
 curl https://sh.rustup.rs -sSf | sh -s -- -y
 ```
 
 Add the required toolchains with rustup
 
-```text
+```
 source $HOME/.cargo/env
 rustup toolchain add nightly-2021-05-11
 rustup target add wasm32-unknown-unknown --toolchain nightly-2021-05-11
@@ -49,43 +49,43 @@ rustup target add x86_64-unknown-linux-gnu --toolchain nightly-2021-05-11
 
 Verify your installation.
 
-```text
+```
 rustc --version
 ```
 
 Note - if you are using OSX and you have Homebrew installed, you can issue the following equivalent command INSTEAD of the previous one:
 
-```text
+```
 brew install cmake pkg-config openssl git llvm
 ```
 
-#### 
+####
 
-#### Install & Configure Network Time Protocol \(NTP\) Client
+#### Install & Configure Network Time Protocol (NTP) Client
 
-[NTP](https://en.wikipedia.org/wiki/Network_Time_Protocol) is a networking protocol designed to synchronize the clocks of computers over a network. NTP allows you to synchronize the clocks of all the systems within the network. Currently it is required that validators' local clocks stay reasonably in sync, so you should be running NTP or a similar service. You can check whether you have the NTP client by running:
+[NTP](https://en.wikipedia.org/wiki/Network\_Time\_Protocol) is a networking protocol designed to synchronize the clocks of computers over a network. NTP allows you to synchronize the clocks of all the systems within the network. Currently it is required that validators' local clocks stay reasonably in sync, so you should be running NTP or a similar service. You can check whether you have the NTP client by running:
 
 If you are using Ubuntu 18.04 / 20.04, NTP Client should be installed by default.
 
-```text
+```
 timedatectl
 ```
 
 If NTP is installed and running, you should see `System clock synchronized: yes` or a similar message. If you do not see it, you can install it by executing:
 
-```text
+```
 sudo apt-get install ntp
 ```
 
 ntpd will be started automatically after install. You can query ntpd for status information to verify that everything is working:
 
-```text
+```
 sudo ntpq -p
 ```
 
 ## ⚙ Setup PhuQuoc Doge Validator Node
 
-Currently, we only have **PhuQuoc Doge Testnet**\(**Quarks**\) and **Phu Quoc Dog Mainnet**\(Bosons\) launched. Phu Quoc Dog Testnet opens for validators to join. _Phu Quoc Doge Mainnet operates in the NPOS mode and maintained by 6 nodes belongs to the Phu Quoc Dog Foundation_.
+Currently, we only have **PhuQuoc Doge Testnet**(**Quarks**) and **Phu Quoc Dog Mainnet**(Bosons) launched. Phu Quoc Dog Testnet opens for validators to join. _Phu Quoc Doge Mainnet operates in the NPOS mode and maintained by 6 nodes belongs to the Phu Quoc Dog Foundation_.
 
 Validator Configuration for Phu Quoc Dog Mainnet will be updated later once it's ready for staking and validators can join.
 
@@ -93,30 +93,30 @@ Validator Configuration for Phu Quoc Dog Mainnet will be updated later once it's
 
 To build the `Phuquocdog` binary from the [Node](https://github.com/phuquoc/node) repository on GitHub using the source code available in the 1.0.1 release.
 
-```text
+```
 git clone https://github.com/phuquocdog/node.git
 cd node
 ```
 
 Build native code with the cargo release profile.
 
-```text
+```
 cargo build --release
 ```
 
-This step will take a while \(generally 10 - 40 minutes, depending on your hardware\).
+This step will take a while (generally 10 - 40 minutes, depending on your hardware).
 
 **Using a prebuilt**
 
-If you don't want to build the binary from the source and simply prefer to download it, use the following command. Then continue at Synchronize Chain Data 
+If you don't want to build the binary from the source and simply prefer to download it, use the following command. Then continue at Synchronize Chain Data&#x20;
 
-```text
+```
 curl -O -L -o phuquocdog-node https://portal.phuquoc.dog/binary/phuquocdog-node
 ```
 
 If your server running on ARM you need to download the file below
 
-```text
+```
 curl -O -L -o phuquocdog-node https://portal.phuquoc.dog/binary/phuquocdog-node-arm
 ```
 
@@ -124,21 +124,21 @@ curl -O -L -o phuquocdog-node https://portal.phuquoc.dog/binary/phuquocdog-node-
 
 Download `phuquocdog.json` file for the Phuquocdog mainnet
 
-```text
+```
 cd $HOME
 curl -O -L https://raw.githubusercontent.com/phuquocdog/node/master/node/res/phuquocdog.json
 ```
 
 You can begin syncing your node by running the following commands if you do not want to start in validator mode right away:
 
-```text
+```
 chmod +x $HOME/phuquocdog-node
-$HOME/phuquocdog-node --chain $HOME/phuquocdog.json --validator --rpc-cors=all --bootnodes /ip4/34.209.135.220/tcp/30333/p2p/12D3KooWEc9LZpacBXG48bVVjZNUaXaQHR4qoW74Xf9tmNw1Sk4P --name  PQD-G01 --base-path $HOME/data
+$HOME/phuquocdog-node --chain $HOME/phuquocdog.json --validator --rpc-cors=all --name  PQD-G01 --base-path $HOME/data
 ```
 
 Then the result should be like that
 
-```text
+```
 tranduythien@pqd-g01:~$ $HOME/phuquocdog-node --chain $HOME/phuquocdog.json --validator --rpc-cors=all --bootnodes /ip4/34.209.135.220/tcp/30333/p2p/12D3KooWEc9LZpacBXG48bVVjZNUaXaQHR4qoW74Xf9tmNw1Sk4P --name  PQD-G01 --base-path $HOME/data
 2021-10-06 15:20:42 Phuquocdog Node    
 2021-10-06 15:20:42 ✌️  version 3.0.0-d7a4013-x86_64-linux-gnu    
@@ -177,7 +177,7 @@ tranduythien@pqd-g01:~$ $HOME/phuquocdog-node --chain $HOME/phuquocdog.json --va
 
 Prepare a  `phuquocdog.service`  file
 
-```text
+```
 [Unit]
 Description=Phuquocdog Mainnet Validator Service
 After=network-online.target
@@ -195,7 +195,7 @@ WantedBy=multi-user.target
 
 Run a validator as a service
 
-```text
+```
 sudo systemctl daemon-reload
 sudo systemctl start phuquocdog
 sudo systemctl status phuquocdog
@@ -218,4 +218,3 @@ Checkout [Polkadot Validate](https://wiki.polkadot.network/docs/en/maintain-guid
 
 * [Phu Quoc Dog Testnet Apps](running-a-validator-on-phuquocdog-network.md)
 * [Phu Quoc Dog Mainnet Apps](running-a-validator-on-phuquocdog-network.md)
-
