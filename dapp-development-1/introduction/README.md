@@ -2,11 +2,9 @@
 
 The API provides application developers the ability to query a node and interact with the Polkadot or Substrate chains using Javascript. Here you will find documentation and examples to get you started.
 
-[Jump right in](https://polkadot.js.org/docs/api/start) and get an overview on using the API in your projects, from installation all the way through to making it do magic. Have things working and want tips? The [cookbook](https://polkadot.js.org/docs/api/cookbook) provides some tips and tricks. Getting started and want some full examples? [The ApiPromise examples](https://polkadot.js.org/docs/api/examples/promise) provide some basic examples.
+[Jump right in](https://polkadot.js.org/docs/api/start) and get an overview on using the API in your projects, from installation all the way through to making it do magic. Have things working and want tips? The [cookbook](https://polkadot.js.org/docs/api/cookbook) provides some tips and tricks.
 
 For oft-repeated questions, the [FAQ](https://polkadot.js.org/docs/api/FAQ) may have what you are looking for.
-
-Separated from the API you will also find the [Substrate metadata](https://polkadot.js.org/docs/substrate) section that has an overview of the RPC, extrinsics, events and errors available on a typical Substrate node.
 
 
 
