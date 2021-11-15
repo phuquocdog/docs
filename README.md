@@ -35,7 +35,7 @@ Our project includes:
 
 * Back-end developed in PHP, running on MySQL, Elastic and using Web3js.
 * UI and Mobile app developed in React.js and React native.
-* Blockhain part : Binance Smart Chain (public and private), Substrate Technology, either ready-to-use framework or Parathread (and Relay Chain).
+* Blockhain part : Substrate Technology, either ready-to-use framework or Parathread (and Relay Chain).
 * Substrate Wallets supports blockchain Phu Quoc Dog and Polkadot.
 
 ### Blockchain Operating System
