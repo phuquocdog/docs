@@ -29,6 +29,7 @@
   * [Generate address](dapp-development-1/introduction/generate-address.md)
   * [Prerequisites](dapp-development-1/introduction/prerequisites.md)
   * [Cookbook](dapp-development-1/introduction/cookbook.md)
+  * [Token Economics](dapp-development-1/introduction/token-economics.md)
   * [Setup environment](dapp-development-1/introduction/setup-environment.md)
 * [Counter Tutorial](dapp-development-1/counter-tutorial/README.md)
   * [Setup dapp project](dapp-development-1/counter-tutorial/setup-dapp-project.md)
