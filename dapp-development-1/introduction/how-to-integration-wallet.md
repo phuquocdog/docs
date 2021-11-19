@@ -76,3 +76,39 @@ async function transferBalance () {
 transferBalance().catch(console.error).finally(() => console.log('------Finish Demo getBalance ----'));
 ```
 
+#### How to iterator the trancsation list by transaction-ids
+
+You can send a GET request with trancsation id&#x20;
+
+```
+// Some code
+GET
+https://hasura.phuquoc.dog/api/rest/transactions?id=trancsationid 
+```
+
+To get information transaction id `0xc66213c30e88c88e099f297ccd90ead6367b43723fcdb2f863541b6d6f5f8c52`
+
+```
+// Some code
+https://hasura.phuquoc.dog/api/rest/transactions?id=0xc66213c30e88c88e099f297ccd90ead6367b43723fcdb2f863541b6d6f5f8c52
+{
+    "extrinsic": [
+        {
+            "args": "[{\"id\":\"5DM8un9Cn9CjWD9oEAbKcZvU8xGf3HFJC8DJUTQ2jGsgn4hR\"},500000000000000]",
+            "block_number": 1852,
+            "doc": "[ Same as the [`transfer`] call, but with a check that the transfer will not kill the,  origin account., ,  99% of the time you want [`transfer`] instead., ,  [`transfer`]: struct.Pallet.html#method.transfer,  # <weight>,  - Cheaper than transfer because account cannot be killed.,  - Base Weight: 51.4 µs,  - DB Weight: 1 Read and 1 Write to dest (sender is in overlay already),  #</weight>]",
+            "extrinsic_index": 1,
+            "fee_details": "{\"inclusionFee\":{\"baseFee\":10000000,\"lenFee\":148000000,\"adjustedWeightFee\":13202109}}",
+            "fee_info": "{\"weight\":167334000,\"class\":\"Normal\",\"partialFee\":171202109}",
+            "hash": "0xc66213c30e88c88e099f297ccd90ead6367b43723fcdb2f863541b6d6f5f8c52",
+            "is_signed": true,
+            "method": "transferKeepAlive",
+            "section": "balances",
+            "signer": "5DAFV7VmRcoxkXQq1xjdFeJrA8tSDyqCZxUfbuqv6DY4BinA",
+            "success": true,
+            "timestamp": 1637296116
+        }
+    ]
+}
+
+```
