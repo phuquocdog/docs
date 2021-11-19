@@ -13,7 +13,26 @@ If you do opt to install it separately, ensure that the version of `@polkadot/ut
 Once installed, you can create an instance by just creating an instance of the `Keyring` class -
 
 ```
-// Import the keyring as requiredimport { Keyring } from '@polkadot/api';// Initialize the API as we would normally do...// Create a keyring instanceconst keyring = new Keyring({ type: 'sr25519' });
+const { mnemonicGenerate,cryptoWaitReady } = require('@polkadot/util-crypto');
+const { Keyring } = require('@polkadot/keyring');
+
+const { ApiPromise,WsProvider } = require('@polkadot/api');
+
+
+async function generateAddress () {
+
+    const provider = new WsProvider('wss://rpc.phuquoc.dog');
+    const api = await ApiPromise.create({provider});
+    // Constuct the keyring after the API (crypto has an async init)
+    const keyring = new Keyring({ type: 'sr25519' });
+    const phrase = mnemonicGenerate(12);
+    const {address} = keyring.addFromUri(phrase);
+
+    console.log('Your phrase: ' + phrase);
+    console.log('Your address: ' + address);
+}
+
+generateAddress().catch(console.error).finally(() => console.log('------Finish Demo getBalance ----'));
 ```
 
 In the above example, the import is self-explanatory. Upon creation we pass through a `type` which can have a value of either `ed25519` or `sr25519`, when not specified this would default to `ed25519`. This type parameter only applies to the default type of account created when no type is specified, it does not mean that the keyring can only store that type of account.
