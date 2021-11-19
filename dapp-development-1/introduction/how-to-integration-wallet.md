@@ -1,42 +1,6 @@
 # How to integration wallet
 
-#### How to transfer out?
-
-This sample shows how to create a transaction to make a transfer from one account to another.
-
-```
-// Some code
-// Import the API, Keyring and some utility functions
-const { ApiPromise } = require('@polkadot/api');
-const { Keyring } = require('@polkadot/keyring');
-
-const BOB = '5FHneW46xGXgs5mUiveU4sbTyGBzmstUspZC92UhjJM694ty';
-
-async function main () {
-  // Instantiate the API
-  const api = await ApiPromise.create();
-
-  // Constuct the keyring after the API (crypto has an async init)
-  const keyring = new Keyring({ type: 'sr25519' });
-
-  // Add Alice to our keyring with a hard-deived path (empty phrase, so uses dev)
-  const alice = keyring.addFromUri('//Alice');
-
-  // Create a extrinsic, transferring 12345 units to Bob
-  const transfer = api.tx.balances.transfer(BOB, 12345);
-
-  // Sign and send the transaction using our account
-  const hash = await transfer.signAndSend(alice);
-
-  console.log('Transfer sent with hash', hash.toHex());
-}
-
-main().catch(console.error).finally(() => process.exit());
-```
-
-See more example at [https://github.com/phuquocdog/wallet/blob/master/class/wallets/phuquocdog-wallet.js#L217](https://github.com/phuquocdog/wallet/blob/master/class/wallets/phuquocdog-wallet.js#L217)
-
-#### **How to get account/Address balance to check there is enough coins to withdraw?**
+**How to get account/Address balance to check there is enough coins to withdraw?**
 
 Let's dive right in, connect to a general chain and retrieve some information on the current state. Of interest may be retrieving the nonce of a particular account as well as the current balance, this can be achieved via&#x20;
 
@@ -82,6 +46,7 @@ const BN = require('bn.js');
 async function transferBalance () {
 
 	// Some mnemonic phrase
+	
 	const PHRASE = 'barrel outer about develop dignity nice slab lottery sort album knock salt';
 
 	const provider = new WsProvider('wss://rpc.phuquoc.dog');
