@@ -41,12 +41,16 @@ Transaction endpoints are exposed, as determined by the metadata, on the `api.tx
 // Import the API, Keyring and some utility functions
 const { ApiPromise,WsProvider } = require('@polkadot/api');
 const { Keyring } = require('@polkadot/keyring');
+
+
 const BN = require('bn.js');
 
-async function transferBalance () {
+const ADDR = '5FUZZjdRkb7Z8YC7iTfPyNjtoc5zXvRw4kXqtpeVEituaRom';
+
+
+async function transferBalance (amount) {
 
 	// Some mnemonic phrase
-	
 	const PHRASE = 'barrel outer about develop dignity nice slab lottery sort album knock salt';
 
 	const provider = new WsProvider('wss://rpc.phuquoc.dog');
@@ -60,11 +64,13 @@ async function transferBalance () {
     const alice = keyring.addFromUri(PHRASE);
 
     const decims = new BN(api.registry.chainDecimals);
-    const factor = new BN(1).pow(decims);
-    const amount = new BN(1).mul(factor);
+    const factor = new BN(10).pow(decims);
+    const amountUnit = new BN(amount).mul(factor);
+
+    //console.log(amountUnit)
 
     // Create a extrinsic, transferring 12345 units to Bob
-    const transfer = api.tx.balances.transfer(ADDR, amount);
+    const transfer = api.tx.balances.transfer(ADDR, amountUnit);
 
     // Sign and send the transaction using our account
     const hash = await transfer.signAndSend(alice);
@@ -73,8 +79,13 @@ async function transferBalance () {
 
 }
 
-transferBalance().catch(console.error).finally(() => console.log('------Finish Demo getBalance ----'));
+transferBalance(10).catch(console.error).finally(() => console.log('------Finish Demo getBalance ----'));
+
+
+
 ```
+
+In the example above we just send 10PQD to address 5FUZZjdRkb7Z8YC7iTfPyNjtoc5zXvRw4kXqtpeVEituaRom
 
 #### How to iterator the trancsation list by transaction-ids
 
