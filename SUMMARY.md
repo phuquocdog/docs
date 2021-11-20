@@ -22,7 +22,7 @@
   * [Connect to TestNet network](quick-start/testnet-iris/connect-to-testnet-network.md)
 * [Phu Quoc Dog Network List](quick-start/phuquoc-doge-network-list.md)
 
-## PhuQuoc Doge DAPP Development <a href="dapp-development-1" id="dapp-development-1"></a>
+## Phu Quoc Dog DAPP <a href="dapp-development-1" id="dapp-development-1"></a>
 
 * [Introduction](dapp-development-1/introduction/README.md)
   * [Create an instance](dapp-development-1/introduction/create-an-instance.md)
