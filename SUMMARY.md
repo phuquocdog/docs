@@ -1,6 +1,7 @@
 # Table of contents
 
 * [Welcome to Phu Quoc Dog](README.md)
+* [Token Economics](token-economics.md)
 * [Follow Us](follow-us.md)
 * [FAQ](faq.md)
 
@@ -24,41 +25,14 @@
 
 ## Phu Quoc Dog DAPP <a href="dapp-development-1" id="dapp-development-1"></a>
 
-* [Introduction](dapp-development-1/introduction/README.md)
-  * [Create an instance](dapp-development-1/introduction/create-an-instance.md)
-  * [Generate address](dapp-development-1/introduction/generate-address.md)
-  * [Prerequisites](dapp-development-1/introduction/prerequisites.md)
-  * [Cookbook](dapp-development-1/introduction/cookbook.md)
-  * [How to integration wallet](dapp-development-1/introduction/how-to-integration-wallet.md)
-  * [Token Economics](dapp-development-1/introduction/token-economics.md)
-  * [Setup environment](dapp-development-1/introduction/setup-environment.md)
-* [Counter Tutorial](dapp-development-1/counter-tutorial/README.md)
-  * [Setup dapp project](dapp-development-1/counter-tutorial/setup-dapp-project.md)
-  * [Setup truffle](dapp-development-1/counter-tutorial/setup-truffle.md)
-  * [The Counter Contract](dapp-development-1/counter-tutorial/the-counter-contract.md)
-  * [Deploy Contract](dapp-development-1/counter-tutorial/deploy-contract.md)
-  * [Counter Webapp](dapp-development-1/counter-tutorial/counter-webapp.md)
+* [Introduction](dapp-development-1/introduction.md)
+* [Create an instance](dapp-development-1/create-an-instance.md)
+* [Cookbook](dapp-development-1/cookbook.md)
+* [Generate address](dapp-development-1/generate-address.md)
+* [How to integration wallet](dapp-development-1/how-to-integration-wallet.md)
 
-## PhuQuoc Doge Eco Incentive Program
+## PQD Wallets & Dapps <a href="wallet-and-dapp" id="wallet-and-dapp"></a>
 
-* [Introduction](phuquoc-doge-eco-incentive-program/introduction.md)
-* [PhuQuoc Doge Developer Incentive Program](phuquoc-doge-eco-incentive-program/phuquoc-doge-developer-incentive-program.md)
-* [Virtual Ethereum address binding](phuquoc-doge-eco-incentive-program/virtual-ethereum-address-binding.md)
-* [PhuQuoc Doge User Incentive Program](phuquoc-doge-eco-incentive-program/phuquoc-doge-user-incentive-program.md)
-
-## PhuQuoc Doge Wallets & Dapps <a href="wallet-and-dapp" id="wallet-and-dapp"></a>
-
-* [PhuQuoc Doge Extension Wallet](wallet-and-dapp/phuquoc-doge-extension-wallet/README.md)
-  * [Getting Started](wallet-and-dapp/phuquoc-doge-extension-wallet/getting-started.md)
-  * [View Seed Phrase](wallet-and-dapp/phuquoc-doge-extension-wallet/view-seed-phrase.md)
-  * [Restore/Import Account](wallet-and-dapp/phuquoc-doge-extension-wallet/restore-import-account.md)
-  * [Switch Networks](wallet-and-dapp/phuquoc-doge-extension-wallet/switch-networks.md)
-  * [Add Tokens](wallet-and-dapp/phuquoc-doge-extension-wallet/add-tokens.md)
-  * [Send Tokens](wallet-and-dapp/phuquoc-doge-extension-wallet/send-tokens.md)
-  * [Cross-Chain Transfer](wallet-and-dapp/phuquoc-doge-extension-wallet/cross-chain-transfer.md)
-  * [Avoid Metamask Conflict](wallet-and-dapp/phuquoc-doge-extension-wallet/avoid-metamask-conflict.md)
-  * [DApp Integration](wallet-and-dapp/phuquoc-doge-extension-wallet/dapp-integration.md)
-  * [DApp Interaction Protocol](wallet-and-dapp/phuquoc-doge-extension-wallet/dapp-interaction-protocol.md)
 * [PhuQuoc Doge Mobile Wallet](wallet-and-dapp/phuquoc-doge-mobile-wallet.md)
 * [PhuQuoc Doge Web Wallet](wallet-and-dapp/phuquoc-doge-web-wallet.md)
 * [DAPP store](wallet-and-dapp/dapp-store.md)

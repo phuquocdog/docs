@@ -6,6 +6,11 @@ Phu Quoc Dog native coin will be used to:
 * Participate in on-chain governance of the network
 * Become a validator of the network by staking
 * Nominate validators and collators of the network
+* Users can deploy tokens for their spaces and communitie
+* Rent or sell your posts as NFTs
+* run ads on pet social networking platforms
+
+
 
 ### Treasury
 
