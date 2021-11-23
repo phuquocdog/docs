@@ -85,7 +85,21 @@ transferBalance(10).catch(console.error).finally(() => console.log('------Finish
 
 ```
 
-In the example above we just send 10PQD to address 5FUZZjdRkb7Z8YC7iTfPyNjtoc5zXvRw4kXqtpeVEituaRom
+In the example above we just send 10PQD to address 5FUZZjdRkb7Z8YC7iTfPyNjtoc5zXvRw4kXqtpeVEituaRom, to send multiple at the same time you need to change
+
+```
+// Some code
+const hash = await transfer.signAndSend(alice);
+```
+
+Tobe
+
+```
+// Some code
+const hash = await transfer.signAndSend(alice,{ nonce: -1 });
+```
+
+If not, you will be get the error like this `Hash:: 1014: Priority is too low: (3752826182276 vs 3752826182276): The transaction has too low priority to replace another transaction already in the pool.`See more [https://polkadot.js.org/docs/api/cookbook/tx/#how-do-i-take-the-pending-tx-pool-into-account-in-my-nonce](https://polkadot.js.org/docs/api/cookbook/tx/#how-do-i-take-the-pending-tx-pool-into-account-in-my-nonce)
 
 #### How to iterator the trancsation list by transaction-ids
 
