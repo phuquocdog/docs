@@ -137,3 +137,17 @@ https://hasura.phuquoc.dog/api/rest/transactions?id=0xc66213c30e88c88e099f297ccd
 }
 
 ```
+
+Get all history transaction an account
+
+```
+// Some code
+https://hasura.phuquoc.dog/api/rest/account_transactions?id=xxx
+```
+
+For example get transaction send and recived account `5HGnAjebsXJrscjrk7TzCSc4p21faUaMEdTY9Xrp4CLwYKtQ`
+
+```
+// Some code
+https://hasura.phuquoc.dog/api/rest/account_transactions?id=5HGnAjebsXJrscjrk7TzCSc4p21faUaMEdTY9Xrp4CLwYKtQ
+```
