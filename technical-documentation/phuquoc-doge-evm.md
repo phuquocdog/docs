@@ -1,2 +1,0 @@
-# Phu Quoc Dog EVM
-
