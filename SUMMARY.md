@@ -23,7 +23,7 @@
   * [Connect to TestNet network](quick-start/testnet-iris/connect-to-testnet-network.md)
 * [Phu Quoc Dog Network List](quick-start/phuquoc-doge-network-list.md)
 
-## Phu Quoc Dog DAPP <a href="dapp-development-1" id="dapp-development-1"></a>
+## Phu Quoc Dog DAPP <a href="#dapp-development-1" id="dapp-development-1"></a>
 
 * [Introduction](dapp-development-1/introduction.md)
 * [Create an instance](dapp-development-1/create-an-instance.md)
@@ -31,9 +31,8 @@
 * [Generate address](dapp-development-1/generate-address.md)
 * [How to integration wallet](dapp-development-1/how-to-integration-wallet.md)
 
-## PQD Wallets & Dapps <a href="wallet-and-dapp" id="wallet-and-dapp"></a>
+## PQD Wallets & Dapps <a href="#wallet-and-dapp" id="wallet-and-dapp"></a>
 
-* [PhuQuoc Doge Mobile Wallet](wallet-and-dapp/phuquoc-doge-mobile-wallet.md)
 * [PhuQuoc Doge Web Wallet](wallet-and-dapp/phuquoc-doge-web-wallet.md)
 * [DAPP store](wallet-and-dapp/dapp-store.md)
 * [PhuQuoc Doge Assets Explorer](wallet-and-dapp/phuquoc-doge-assets-explorer.md)

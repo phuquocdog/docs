@@ -8,7 +8,7 @@ For oft-repeated questions, the [FAQ](https://polkadot.js.org/docs/api/FAQ) may 
 
 
 
-**All documents you can see at **[**https://polkadot.js.org/docs/api/start**](https://polkadot.js.org/docs/api/start)****
+**All documents you can see at** [**https://polkadot.js.org/docs/api/start**](https://polkadot.js.org/docs/api/start)****
 
 ## Simple Connect
 
