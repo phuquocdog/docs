@@ -19,8 +19,8 @@ The smallest unit of account in a Substrate network is the Planck (a reference t
 | Unit            | Decimal Places | Example      |
 | --------------- | -------------- | ------------ |
 | Planck          | 0              | 0.0000000001 |
-| Microdot (uPQD) | 4              | 0.0000010000 |
-| Millidot (mPQD) | 7              | 0.0010000000 |
+| Micropqd(uPQD)  | 4              | 0.0000010000 |
+| Millipqd (mPQD) | 7              | 0.0010000000 |
 | PQD (PQD)       | 10             | 1.0000000000 |
 
 You can checkout the current total issuance Phu Quoc Dog Coin at [https://block.phuquoc.dog](https://block.phuquoc.dog)

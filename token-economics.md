@@ -12,7 +12,23 @@ Phu Quoc Dog native coin will be used to:
 * Easily send donations or setup a subscription.
 * DeFi and smart contracts. Developers can implement advanced payment options.
 
+Now let’s take a deep dive into the core elements of Phuquocdog tokenomics.
 
+### Total supply
+
+The total supply of Phuquocdog native token, PQD, is capped at 90 billion PQD However, PQD supply can fluctuate at times.
+
+_How does it work?_
+
+Phuquocdog mechanism will burn the transaction fees if the current total supply goes over 90 billion tokens. We are also working on other mechanics of burning tokens from the PQD NFT pallet and Cross that will be introduced later. Burning mechanisms regulate supply via the network without the need for users to intervene.
+
+### Initial Criculating Supply
+
+There are **55,420,356,977** PQD tokens currently released on the market. It is less than 62% of the Total Supply.
+
+### Founder Team
+
+Our core team building the product receives 15% of the total supply of tokens, 13.5 billion PQD. They are released according to the following schedule: 20% of tokens is unlocked 12 months after the Mainnet launch and the remaining amount is vested quarterly over the next 12 months.
 
 ### Treasury
 
