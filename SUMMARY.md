@@ -32,8 +32,6 @@
 * [PQD Web Wallet](ecosystem/pqd-web-wallet.md)
 * [PQD Staking](ecosystem/pqd-staking.md)
 * [PQD Cross-Chain Explorer](ecosystem/pqd-cross-chain-explorer.md)
+* [Running a validator on PQD](ecosystem/running-a-validator-on-phuquocdog-network.md)
 
-## Maintain
-
-* [Running a validator on Phu Quoc Dog Network](maintain/running-a-validator-on-phuquocdog-network.md)
-* [Running a RPC node](maintain/running-a-rpc-node.md)
+## Api
