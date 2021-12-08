@@ -62,7 +62,7 @@ async function transferBalance (amount) {
 
     const decims = new BN(api.registry.chainDecimals);
     const factor = new BN(10).pow(decims);
-    const amountUnit = new BN(amount).mul(factor);
+    const amountUnit = factor.imuln(amount);
 
     //console.log(amountUnit)
 
