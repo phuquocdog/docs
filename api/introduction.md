@@ -15,7 +15,7 @@ Default to get resource from PQD you need authentication to get token or use api
 * API key to use GET request method
 * Token key to use when we need POST or PUT, DELETE action
 
-Default to get resource from FRMFM you need authentication to get token or use api key, then you can use resource see [Auth](https://docs.frm.fm/#/./Auth)
+Default to get resource from PQD you need authentication to get token or use api key, then you can use resource see [Auth](https://docs.frm.fm/#/./Auth)
 
 * API key to use GET request method
 * Token key to use when we need POST or PUT, DELETE action
