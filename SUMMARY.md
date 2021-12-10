@@ -37,3 +37,4 @@
 ## Api
 
 * [Introduction](api/introduction.md)
+* [Authentication](api/authentication.md)
