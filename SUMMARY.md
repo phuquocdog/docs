@@ -42,3 +42,4 @@
 ***
 
 * [Feeds](feeds.md)
+* [Web3 store](web3-store.md)
