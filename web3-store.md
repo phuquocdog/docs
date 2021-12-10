@@ -6,16 +6,6 @@ This documentation describes the HTTP API for [**Web3.Storage**](https://web3.st
 
 To store a file on decentralized data storage, you need send a POST request. Method parameters are supplied in positional order.
 
-| Number | Type     | Description                                                                              |
-| ------ | -------- | ---------------------------------------------------------------------------------------- |
-| 1      | `file[]` | An iterable collection of [Files](https://developer.mozilla.org/en-US/docs/Web/API/File) |
-
-| to be packed into a CAR and uploaded. |             |                                                                                                                                                     |
-| ------------------------------------- | ----------- | --------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 2                                     | `{options}` | _Optional._ An object whose properties define certain Web3.Storage options and metadata about the files being uploaded. See below for more details. |
-
-An `{options}` object has the following properties that can be used as parameters when calling `put()`:
-
 
 
 ```
@@ -58,3 +48,18 @@ curl  -X GET https://api.phuquoc.dog/web3/storage/bafybeidzrwd5wj64hku4sr6egkhr4
 -H "Authorization : Bearer eyJ0eXAiOi"
 ```
 
+Result:
+
+```
+// Some code
+{
+    "status": true,
+    "message": "File is uploaded",
+    "data": {
+        "name": "13edf243597e9e92f809ab030147cdde.png",
+        "size": 610388,
+        "cid": "bafybeidzrwd5wj64hku4sr6egkhr4wksy67s52wx7qzrgowdt7fcgsyaau",
+        "dwebLink": "https://bafybeidzrwd5wj64hku4sr6egkhr4wksy67s52wx7qzrgowdt7fcgsyaau.ipfs.dweb.link/13edf243597e9e92f809ab030147cdde.png"
+    }
+}
+```
