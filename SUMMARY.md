@@ -38,3 +38,7 @@
 
 * [Introduction](api/introduction.md)
 * [Authentication](api/authentication.md)
+
+***
+
+* [Feeds](feeds.md)
