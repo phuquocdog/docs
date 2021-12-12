@@ -68,6 +68,8 @@ Above we just running for enviroment develop, to running a validator on mainnet 
 
 ```
 // Some code
+mkdir ~/pqddata
+chmod 777 -R ~/pqddata
 docker run --name pqd-mainnet -d -p 30333:30333 -p 9933:9933 -v ~/pqddata:/data phuquocdog/node:latest --chain /node/phuquocdog.json --rpc-external --rpc-cors all
 ```
 
