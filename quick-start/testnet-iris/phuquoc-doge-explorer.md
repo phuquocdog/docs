@@ -1,2 +1,0 @@
-# PhuQuoc Doge Explorer
-
