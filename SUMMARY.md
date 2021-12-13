@@ -43,5 +43,6 @@
 ***
 
 * [Feeds](feeds.md)
+* [Users](users.md)
 * [Artworks](artworks.md)
 * [Web3 store](web3-store.md)
