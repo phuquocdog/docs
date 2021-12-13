@@ -43,4 +43,5 @@
 ***
 
 * [Feeds](feeds.md)
+* [Artworks](artworks.md)
 * [Web3 store](web3-store.md)
