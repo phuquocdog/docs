@@ -32,5 +32,5 @@
 * [Feeds](feeds.md)
 * [Users](users.md)
 * [Artworks](artworks.md)
-* [Page 1](page-1.md)
+* [Following](following.md)
 * [Web3 store](web3-store.md)
