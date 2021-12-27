@@ -1,4 +1,4 @@
-# Running a validator on Phu Quoc Dog Network
+# Running a validator on PQD
 
 This guide will instruct you on how to set up a Phu Quoc Doge validator node on Phu Quoc Dog networks (Testnet/Mainnet).
 
@@ -209,6 +209,32 @@ Checkout[ Polkadot Bond ](https://wiki.polkadot.network/docs/en/maintain-guides-
 ## 🗝 Set the session keys
 
 Checkout [Polkadot Session Keys](https://wiki.polkadot.network/docs/en/maintain-guides-how-to-validate-polkadot#option-2-cli) documentation.
+
+If you are on a remote server, it is easier to run this command on the same machine (while the node is running with the default HTTP RPC port configured):
+
+```
+curl -H "Content-Type: application/json" -d '{"id":1, "jsonrpc":"2.0", "method": "author_rotateKeys", "params":[]}' http://localhost:9933
+```
+
+The output will have a hex-encoded "result" field. The result is the concatenation of the four public keys. Save this result for a later step.
+
+```
+// Some code
+ubuntu@PQD03:~$ curl -H "Content-Type: application/json" -d '{"id":1, "jsonrpc":"2.0", "method": "author_rotateKeys", "params":[]}' http://localhost:9934
+{"jsonrpc":"2.0","result":"0x061f966857e02a4c6e3604b833ae98f7e8e39bd734579780a56220dd0bf3a73fb003b16fbf420636ec3624f6068d26b9b7eadf16eba366ef183929adbb51b65c9e7e338ff4a848a24e80d4e4eed0a45834befec2819e6ad3523f96937ff3332a00bb8a7bba6c0b72b2d382375732b4967a48df0992a28a0261c58dc170d16177","id":1}
+```
+
+You can restart your node at this point.
+
+#### Submitting the `setKeys` Transaction <a href="#submitting-the-setkeys-transaction" id="submitting-the-setkeys-transaction"></a>
+
+You need to tell the chain your Session keys by signing and submitting an extrinsic. This is what associates your validator with your Controller account.
+
+Go to [Staking > Account Actions](https://polkadot.js.org/apps/#/staking/actions) > Validator, and click "Set Session Key" on the bonding account you generated earlier. Enter the output from `author_rotateKeys` in the field and click "Set Session Key".
+
+
+
+
 
 ## 🌠 Validate
 
