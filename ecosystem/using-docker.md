@@ -70,7 +70,7 @@ Above we just running for enviroment develop, to running a validator on mainnet 
 // Some code
 mkdir ~/pqddata
 chmod 777 -R ~/pqddata
-docker run --name pqd-mainnet -d -p 9944:9944  -p 30333:30333 -p 9933:9933 -v ~/pqddata:/data phuquocdog/node:latest --chain /node/phuquocdog.json --rpc-external --ws-external  --rpc-cors all
+docker run --name pqd-mainnet -d -p 9944:9944  -p 30333:30333 -p 9933:9933 -v ~/pqddata:/data phuquocdog/node:latest --chain mainnet --rpc-external --ws-external  --rpc-cors all
 ```
 
 Then check log and data you should see something like this
