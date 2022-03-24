@@ -34,3 +34,4 @@
 * [Artworks](artworks.md)
 * [Following](following.md)
 * [Web3 store](web3-store.md)
+* [Account service](account-service.md)
